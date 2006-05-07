@@ -1,0 +1,66 @@
+[Package Name]
+Name=oglib_lvdata
+Version=2.5
+Release=1
+
+[Description]
+Description="This library contains several routines for operating on variant data and type descriptors."
+Summary="OpenG LabVIEW Data Tools"
+License=LGPL
+Copyright="2002-2006 Jean-Pierre Drolet, Jim Kring"
+Distribution="OpenG Toolkit"
+Icon=../source/images/lvdata.bmp
+Vendor=OpenG.org
+URL=http://openg.org/lvdata
+Packager="Jim Kring <jim@jimkring.com>"
+
+[Platform]
+Exclusive_LabVIEW_Version=>=6.1
+Exclusive_LabVIEW_System=All
+Exclusive_OS=All
+
+[Script VIs]
+Source Dir=""
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Verify=""
+PreBuild=""
+PostBuild=""
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires=ogrsc_dynamicpalette>=2.0,oglib_error>=2.0
+Conflicts=""
+
+[Files]
+Num File Groups=4
+
+[File Group 0]
+Source Dir=../built/lvdata
+Target Dir=<OpenG.lib>/lvdata
+Replace Mode=Always
+Num Files=1
+File 0=lvdata.llb/*.*
+
+[File Group 1]
+Source Dir="../source/Library MNUs"
+Target Dir=<OpenG.lib>/lvdata
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+
+[File Group 2]
+Source Dir="../source/Dynamic Palette MNUs"
+Target Dir=<user.lib>/_dynamicpalette_dirs/adv
+Replace Mode=Always
+Num Files=1
+File 0=oglib_lvdata.mnu
+
+[File Group 3]
+Source Dir="../source/Dynamic Palette MNUs"
+Target Dir="<user.lib>/_dynamicpalette_dirs/OpenG"
+Replace Mode=Always
+Num Files=1
+File 0=oglib_lvdata.mnu
