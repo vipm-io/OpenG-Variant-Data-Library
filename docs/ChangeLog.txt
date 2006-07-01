@@ -1,4 +1,10 @@
--= oglib_lvdata-2.5-1.ogp =-
+-= oglib_lvdata-2.6-1.ogp =-
+
+Changes from 2.5-1 --> 2.6-1
+--------------------------------
+2006-07-01
+[NEW] Relicensed under BSD (instead of LGPL)
+
 
 Changes from 2.4-1 --> 2.5-1
 --------------------------------

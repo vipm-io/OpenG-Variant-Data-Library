@@ -1,12 +1,12 @@
 [Package Name]
 Name=oglib_lvdata
-Version=2.5
+Version=2.6
 Release=1
 
 [Description]
 Description="This library contains several routines for operating on variant data and type descriptors."
 Summary="OpenG LabVIEW Data Tools"
-License=LGPL
+License=BSD
 Copyright="2002-2006 Jean-Pierre Drolet, Jim Kring"
 Distribution="OpenG Toolkit"
 Icon=../source/images/lvdata.bmp
