@@ -4,7 +4,9 @@
 Changes from 2.6-1 --> 2.7-1
 --------------------------------
 2006-12-01
-[MOD] Added types for I64 (0x04), U64 (0x08), and Enum U64 (0x18)
+[MOD] Added support for for 64-bit integer data types, such as
+      I64 (0x04), U64 (0x08), and Enum U64 (0x18).
+[MOD] Added "Array Name" input on "Array of VData to VArray.vi".
 
 
 Changes from 2.5-1 --> 2.6-1
