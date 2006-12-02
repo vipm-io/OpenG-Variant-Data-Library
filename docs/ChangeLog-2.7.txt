@@ -1,0 +1,11 @@
+2006-12-02
+[NEW] 100% unit test coverage during library build.
+[MOD] Added support for for 64-bit integer data types, such as I64 (0x04), U64 (0x08), and Enum U64 (0x18).
+[MOD] "Type Descriptor Enumeration.ctl" support for 64-bit types.
+[MOD] "Get Data Name from TD.vi" support for 64-bit types.
+[MOD] "Get Default Data from TD.vi" support for 64-bit types.
+[MOD] "Get Strings from Enum.vi" support for 64-bit types.
+[MOD] "Set Data Name.vi" support for 64-bit types.
+[MOD] "Set Enum String Value.vi" support for 64-bit types.
+[MOD] "Size of Data from TD.vi" support for 64-bit types.
+[MOD] Added "Array Name" input on "Array of VData to VArray.vi".
