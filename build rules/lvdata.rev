@@ -1,7 +1,7 @@
 [lvdata.ogbld]
 Version=0.0.0
-Build_Number=17
-Build_Date="7/1/2006 5:08:03 PM"
+Build_Number=21
+Build_Date="12/2/2006 12:00:30 PM"
 Status=OK
 Warnings=6
 Log_File="/D/Projects/OpenG/opengtoolkit/SVN_Folders/lvdata/build rules/lvdata.log"
