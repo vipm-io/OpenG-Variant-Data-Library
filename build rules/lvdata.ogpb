@@ -1,6 +1,6 @@
 [Package Name]
 Name=oglib_lvdata
-Version=2.7
+Version=2.8
 Release=1
 
 [Description]
@@ -11,7 +11,7 @@ Copyright="2002-2006 Jean-Pierre Drolet, Jim Kring"
 Distribution="OpenG Toolkit"
 Icon=../source/images/lvdata.bmp
 Vendor=OpenG.org
-URL=http://openg.org/lvdata
+URL=http://wiki.openg.org/oglib_lvdata
 Packager="Jim Kring <jim@jimkring.com>"
 
 [Platform]
