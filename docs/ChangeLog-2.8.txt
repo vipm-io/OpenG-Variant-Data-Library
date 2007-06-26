@@ -1,3 +1,4 @@
 2007-06-21
 [MOD] In "Get Header from TD.vi", optimized code by changing from TypeCast to explicit manipulation of data.
 [MOD] In various VIs, replaced "Variant to Header Info.vi" with "Variant to Flattened String" (where header info not used).
+[FIX] Changed dependency on "ogrsc_dynamicpalette>=2.0" (incorrect) to "ogrsc_dynamicpalette>=0.2" (correct)
