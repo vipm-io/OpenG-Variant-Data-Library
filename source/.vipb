@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2010-12-11 16:39:52" Creator="Jonathon Green" Comments="" ID="306eebfcb6e668535f75818aebd8041d">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2010-12-11 18:10:57" Creator="Jonathon Green" Comments="" ID="4702ac9530d2033471a3a798e61ec1ad">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>4.0.0.5</Library_Version>
+    <Library_Version>4.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
-    <Company_Name>OpenG.org</Company_Name>
+    <Company_Name/>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>9.0</Package_LabVIEW_Version>
