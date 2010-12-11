@@ -1,0 +1,1 @@
+TEST - Remove Typedefs from Variant.vi - Upgrade to 2009. Test fails. Currently Framework set to ignores test. Requires followup.
