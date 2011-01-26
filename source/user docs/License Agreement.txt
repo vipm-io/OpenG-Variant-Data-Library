@@ -1,6 +1,6 @@
 OpenG LabVIEW Data Tools
 
-Copyright (c) 2002-2006 Jean-Pierre Drolet, Jim Kring, 2010 Jonathon Green
+Copyright (c) 2002-2006 Jean-Pierre Drolet, Jim Kring; 2010 Jonathon Green
 
 All rights reserved.
 

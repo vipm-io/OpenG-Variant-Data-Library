@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2010-12-11 18:10:57" Creator="Jonathon Green" Comments="" ID="4702ac9530d2033471a3a798e61ec1ad">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2011-01-26 11:02:42" Creator="Jonathon Green" Comments="" ID="a9536aeb5b4e387dcd74641be171166e">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
     <Library_Version>4.0.0.6</Library_Version>
@@ -31,8 +31,8 @@
     <Description>
       <One_Line_Description_Summary>OpenG LabVIEW Data Tools</One_Line_Description_Summary>
       <Description>This library contains several routines for operating on variant data and type descriptors.</Description>
-      <Copyright>2002-2006 Jean-Pierre Drolet, Jim Kring, 2010 Jonathon Green</Copyright>
-      <Packager>OpenG</Packager>
+      <Copyright>2002-2006 Jean-Pierre Drolet, Jim Kring; 2010 Jonathon Green</Copyright>
+      <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_lvdata</URL>
       <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
 Package build with VIPM 2010
