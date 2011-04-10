@@ -1,3 +1,2 @@
 VI Tree - lvdata.vi
 Variant Constant.vi
-Remove Typedefs from Variant.vi
