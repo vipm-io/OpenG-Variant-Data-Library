@@ -59,16 +59,21 @@
 				<Item Name="Get Physical Units from TD.vi" Type="VI" URL="../source/library/Get Physical Units from TD.vi"/>
 				<Item Name="Get Physical Units.vi" Type="VI" URL="../source/library/Get Physical Units.vi"/>
 				<Item Name="Get PString.vi" Type="VI" URL="../source/library/Get PString.vi"/>
+				<Item Name="Get Refnum Type Enum from Data.vi" Type="VI" URL="../source/library/Get Refnum Type Enum from Data.vi"/>
+				<Item Name="Get Refnum Type Enum from TD.vi" Type="VI" URL="../source/library/Get Refnum Type Enum from TD.vi"/>
 				<Item Name="Get Strings from Enum TD.vi" Type="VI" URL="../source/library/Get Strings from Enum TD.vi"/>
 				<Item Name="Get Strings from Enum.vi" Type="VI" URL="../source/library/Get Strings from Enum.vi"/>
 				<Item Name="Get TDEnum from Data.vi" Type="VI" URL="../source/library/Get TDEnum from Data.vi"/>
 				<Item Name="Get TDEnum from TD.vi" Type="VI" URL="../source/library/Get TDEnum from TD.vi"/>
 				<Item Name="Get Variant Attributes.vi" Type="VI" URL="../source/library/Get Variant Attributes.vi"/>
+				<Item Name="Get Waveform Type Enum from Data.vi" Type="VI" URL="../source/library/Get Waveform Type Enum from Data.vi"/>
+				<Item Name="Get Waveform Type Enum from TD.vi" Type="VI" URL="../source/library/Get Waveform Type Enum from TD.vi"/>
 				<Item Name="Index Array.vi" Type="VI" URL="../source/library/Index Array.vi"/>
 				<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../source/library/No of Elements in Cluster.vi"/>
 				<Item Name="Parse String with TDs.vi" Type="VI" URL="../source/library/Parse String with TDs.vi"/>
 				<Item Name="Physical Units.ctl" Type="VI" URL="../source/library/Physical Units.ctl"/>
 				<Item Name="Refnum Code.ctl" Type="VI" URL="../source/library/Refnum Code.ctl"/>
+				<Item Name="Refnum Subtype Enum.ctl" Type="VI" URL="../source/library/Refnum Subtype Enum.ctl"/>
 				<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../source/library/Remove Typedefs from Variant.vi"/>
 				<Item Name="Replace Array Element.vi" Type="VI" URL="../source/library/Replace Array Element.vi"/>
 				<Item Name="Reshape 1D Array.vi" Type="VI" URL="../source/library/Reshape 1D Array.vi"/>
@@ -87,12 +92,19 @@
 				<Item Name="Variant Manipulation Templ.vit" Type="VI" URL="../source/library/Variant Manipulation Templ.vit"/>
 				<Item Name="Variant to Header Info.vi" Type="VI" URL="../source/library/Variant to Header Info.vi"/>
 				<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi"/>
+				<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../source/library/Waveform Subtype Enum.ctl"/>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="source" Type="Folder">
+				<Item Name="library" Type="Folder">
+					<Item Name="Test - Refnum Subtype Enum.vi" Type="VI" URL="../tests/source/library/Test - Refnum Subtype Enum.vi"/>
+					<Item Name="Test - Waveform Subtype Enum.vi" Type="VI" URL="../tests/source/library/Test - Waveform Subtype Enum.vi"/>
+				</Item>
+			</Item>
 			<Item Name="exclused_vis.txt" Type="Document" URL="../tests/exclused_vis.txt"/>
 			<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../tests/TEST - Array Dim(s) from TD.vi"/>
 			<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../tests/TEST - Array of VData to VArray.vi"/>
@@ -184,6 +196,8 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
