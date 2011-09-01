@@ -146,6 +146,7 @@
 			<Item Name="TEST - Reshape 1D Array.vi" Type="VI" URL="../tests/TEST - Reshape 1D Array.vi"/>
 			<Item Name="TEST - Reshape Array to 1D VArray.vi" Type="VI" URL="../tests/TEST - Reshape Array to 1D VArray.vi"/>
 			<Item Name="TEST - Set Cluster Element by Name.vi" Type="VI" URL="../tests/TEST - Set Cluster Element by Name.vi"/>
+			<Item Name="TEST - Set Data Name - Attributes.vi" Type="VI" URL="../tests/TEST - Set Data Name - Attributes.vi"/>
 			<Item Name="TEST - Set Data Name.vi" Type="VI" URL="../tests/TEST - Set Data Name.vi"/>
 			<Item Name="TEST - Set Enum String Value.vi" Type="VI" URL="../tests/TEST - Set Enum String Value.vi"/>
 			<Item Name="TEST - Size of Data from TD.vi" Type="VI" URL="../tests/TEST - Size of Data from TD.vi"/>
