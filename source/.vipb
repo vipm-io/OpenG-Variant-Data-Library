@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2011-09-16 14:21:16" Creator="Jonathon Green" Comments="" ID="322c74a9033dbca4e274d19320abb128">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-10 18:06:31" Modified_Date="2011-09-18 16:10:50" Creator="Jonathon Green" Comments="" ID="4864f1ad5ac377381512b9de9471228e">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>4.1.0.11</Library_Version>
+    <Library_Version>4.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,10 +34,11 @@
       <Copyright>2002-2006 Jean-Pierre Drolet, Jim Kring; 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_lvdata</URL>
-      <Release_Notes>[FIX] 3386531 - Get Array Element Default Data does not support Timestamp data
-[FIX] 3252254 - Set Data Name does not persist Variant attributes
+      <Release_Notes>[FIX] 3386531 - Get Array Element Default Data does not support Timestamp
+[FIX] 3252254 - Set Varaint kills attributes
 [FIX] 3386530 - Create new Waveform and Refnum TD subtype VIs
-[FIX] 3386538 - Update Variant Constant to LabVIEW 2009 appearance</Release_Notes>
+[FIX] 3386538 - Update Variant Constant to LabVIEW 2009 appearance
+[FIX] 3411109 - Recursive VIs should use native recursion (lvdata)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
