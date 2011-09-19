@@ -389,6 +389,9 @@
 			<Item Name="TEST - Unwrap VVariant.vi" Type="VI" URL="../tests/TEST - Unwrap VVariant.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - Variant Constant.vi" Type="VI" URL="../tests/TEST - Variant Constant.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 			<Item Name="TEST - Variant to Header Info.vi" Type="VI" URL="../tests/TEST - Variant to Header Info.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
