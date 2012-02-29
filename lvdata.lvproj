@@ -150,6 +150,10 @@
 				<Item Name="Index Array.vi" Type="VI" URL="../source/library/Index Array.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="LVOOP Get Default Object.vi" Type="VI" URL="../source/library/LVOOP Get Default Object.vi"/>
+				<Item Name="LVOOP Is Default Value.vi" Type="VI" URL="../source/library/LVOOP Is Default Value.vi"/>
+				<Item Name="LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../source/library/LVOOP Is Same Or Descendant Class.vi"/>
+				<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../source/library/LVOOP Return Class Name.vi"/>
 				<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../source/library/No of Elements in Cluster.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -216,9 +220,6 @@
 				<Item Name="Variant to Header Info.vi" Type="VI" URL="../source/library/Variant to Header Info.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../source/library/Waveform Subtype Enum.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -226,6 +227,9 @@
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
+			<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="source" Type="Folder">
@@ -341,6 +345,10 @@
 			<Item Name="TEST - Index Array.vi" Type="VI" URL="../tests/TEST - Index Array.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - LVOOP Get Default Object.vi" Type="VI" URL="../tests/TEST - LVOOP Get Default Object.vi"/>
+			<Item Name="TEST - LVOOP Is Default Value.vi" Type="VI" URL="../tests/TEST - LVOOP Is Default Value.vi"/>
+			<Item Name="TEST - LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../tests/TEST - LVOOP Is Same Or Descendant Class.vi"/>
+			<Item Name="TEST - LVOOP Return Class Name.vi" Type="VI" URL="../tests/TEST - LVOOP Return Class Name.vi"/>
 			<Item Name="TEST - No of Elements in Cluster.vi" Type="VI" URL="../tests/TEST - No of Elements in Cluster.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
@@ -442,6 +450,7 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
@@ -735,7 +744,9 @@
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Slice String 1__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Slice String 1__ogtk.vi"/>
 			</Item>
+			<Item Name="LVOOP Data.lvlib" Type="Library" URL="../tests/LVOOP Data/LVOOP Data.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

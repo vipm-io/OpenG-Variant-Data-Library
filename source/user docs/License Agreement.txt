@@ -1,6 +1,6 @@
 OpenG LabVIEW Data Library
 
-Copyright (c) 2002-2006 Jean-Pierre Drolet, Jim Kring; 2010-2011 Jonathon Green
+Copyright (c) 2002-2006 Jean-Pierre Drolet, Jim Kring; 2010-2012 Jonathon Green; 2012 James David Powell
 
 All rights reserved.
 
