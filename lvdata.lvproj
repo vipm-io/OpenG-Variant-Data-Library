@@ -408,6 +408,11 @@
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
+		<Item Name="reentrant setting" Type="Folder">
+			<Item Name="Modify OpenG VIs.vi" Type="VI" URL="../reentrant setting/Modify OpenG VIs.vi"/>
+			<Item Name="ReentrancyType--Enum.ctl" Type="VI" URL="../reentrant setting/ReentrancyType--Enum.ctl"/>
+			<Item Name="ReentrancySettings--Cluster.ctl" Type="VI" URL="../reentrant setting/ReentrancySettings--Cluster.ctl"/>
+		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
@@ -452,6 +457,9 @@
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
