@@ -409,9 +409,8 @@
 			</Item>
 		</Item>
 		<Item Name="reentrant setting" Type="Folder">
-			<Item Name="Modify OpenG VIs.vi" Type="VI" URL="../reentrant setting/Modify OpenG VIs.vi"/>
+			<Item Name="Modify VI Settings.vi" Type="VI" URL="../reentrant setting/Modify VI Settings.vi"/>
 			<Item Name="ReentrancyType--Enum.ctl" Type="VI" URL="../reentrant setting/ReentrancyType--Enum.ctl"/>
-			<Item Name="ReentrancySettings--Cluster.ctl" Type="VI" URL="../reentrant setting/ReentrancySettings--Cluster.ctl"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
