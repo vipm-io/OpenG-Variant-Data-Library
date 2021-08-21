@@ -1,2 +1,2 @@
 # OpenG Variant Data Library
-The JKI-supported branch of the OpenG Variant Data Library (a.k.a OpenG LabVIEW Data Library or oglib_lvdata)
+[Install he OpenG Variant Data Library with VIPM](https://www.vipm.io/package/oglib_lvdata/) (a.k.a OpenG LabVIEW Data Library or oglib_lvdata)
