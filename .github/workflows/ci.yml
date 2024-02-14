@@ -38,10 +38,10 @@ jobs:
         run: |
           echo running pylavi tests
           vi_validate \
-            --path source
-            --path tests
-            --gt 20 --lt 21
-            --skip *.vit
-            --no-code
-            --breakpoints
+            --path source \
+            --path tests \
+            --gt 20 --lt 21 \
+            --skip *.vit \
+            --no-code \
+            --breakpoints \
           echo finished pylavi tests
