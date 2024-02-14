@@ -40,6 +40,7 @@ jobs:
           vi_validate \
             --path source \ # add `source` dir to checks
             --path tests \  # add `tests` dir to checks
+            --gt 20 --lt 21 \ # check for LabVIEW Version == 2020
             --skip *.vit \  # skip vit files (since pylavi will show these as containing source)
             --no-code \     # `Separate Compiled Code` required for all VIs
             --breakpoints \ # `No Breakpoints` allowed in code
