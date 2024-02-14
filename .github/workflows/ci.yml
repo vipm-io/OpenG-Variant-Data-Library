@@ -23,12 +23,12 @@ jobs:
 
     steps:
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install pylavi
         run: |
@@ -36,7 +36,9 @@ jobs:
 
       - name: Run pylavi Tests
         run: |
+          echo running pylavi tests
           vi_validate \
             --path source \
             --no-code \
             --breakpoints
+          echo finished pylavi tests
