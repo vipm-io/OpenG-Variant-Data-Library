@@ -43,5 +43,5 @@ jobs:
             --gt 20 --lt 21 \
             --skip *.vit \
             --no-code \
-            --breakpoints \
+            --breakpoints
           echo finished pylavi tests
