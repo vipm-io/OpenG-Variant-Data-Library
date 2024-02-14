@@ -1,0 +1,7 @@
+
+# LabVIEW IDE Settings
+*.aliases
+*.lvlps
+
+# Python virtual environment
+venv/
