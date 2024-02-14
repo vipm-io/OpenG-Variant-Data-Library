@@ -36,7 +36,9 @@ jobs:
 
       - name: Run pylavi Tests
         run: |
+          echo running pylavi tests
           vi_validate \
             --path source \
             --no-code \
             --breakpoints
+          echo finished pylavi tests
