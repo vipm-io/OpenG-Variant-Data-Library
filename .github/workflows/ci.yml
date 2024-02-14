@@ -38,7 +38,9 @@ jobs:
         run: |
           echo running pylavi tests
           vi_validate \
-            --path . \
-            --no-code \
-            --breakpoints
+            --path source \ # add `source` dir to checks
+            --path tests \  # add `tests` dir to checks
+            --skip *.vit \  # skip vit files (since pylavi will show these as containing source)
+            --no-code \     # `Separate Compiled Code` required for all VIs
+            --breakpoints \ # `No Breakpoints` allowed in code
           echo finished pylavi tests
