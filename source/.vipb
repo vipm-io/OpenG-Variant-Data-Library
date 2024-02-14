@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-02-14 13:00:11" Creator="Jonathon Green" Comments="" ID="41ea116257df17d9c16f2c958c50400e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-02-14 15:45:01" Creator="Jonathon Green" Comments="" ID="7e03079cd9e6fcb226b74590e4ca25cf">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>6.0.0.29</Library_Version>
+    <Library_Version>6.0.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -596,7 +596,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path/>
         <VI_Title>Type Descriptor</VI_Title>
       </Items_Data>
-      <GUID>20D4C49732660F09CE7DA6DD93CEA44F</GUID>
+      <GUID>41A9692CB1D04806B30002628E9243EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Set Enum String Value.vi</Path>
         <VI_Title>Set Enum String Value.vi</VI_Title>
       </Items_Data>
-      <GUID>F7E182499790F4DE08EA9742872A3692</GUID>
+      <GUID>CAEBB26873A8A263FF95B92120B0D376</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -806,7 +806,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Cluster to VArray.vi</Path>
         <VI_Title>Cluster to VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>9BDCF8347ADAF85FD828F95C37558DB5</GUID>
+      <GUID>BF3D677B8BC3F23B8241629E84D2BDF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -995,7 +995,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Array to VCluster.vi</Path>
         <VI_Title>Array to VCluster.vi</VI_Title>
       </Items_Data>
-      <GUID>EA018DF9779A0266545236B262626F86</GUID>
+      <GUID>D85412C6E24A18C25A45351C488B3AA7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1044,7 +1044,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get Physical Units.vi</Path>
         <VI_Title>Get Physical Units.vi</VI_Title>
       </Items_Data>
-      <GUID>7494525DEBFEAB7222A5B1B88DBEC3EA</GUID>
+      <GUID>1EBDE00070C251C3DD12D3281E75922A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1079,7 +1079,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Unwrap VVariant.vi</Path>
         <VI_Title>Unwrap VVariant.vi</VI_Title>
       </Items_Data>
-      <GUID>43222D856315400C4C156029FE552487</GUID>
+      <GUID>06C21FC30309F219CD0AA8AA1DF10C57</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1324,7 +1324,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get Refnum Type Enum from TD.vi</Path>
         <VI_Title>Get Refnum Type Enum from TD.vi</VI_Title>
       </Items_Data>
-      <GUID>285B9B60CE590219DAE4AFE8419FF399</GUID>
+      <GUID>0B1AAE6A3C67479901110F23DE4142DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1359,7 +1359,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get GOOP Object Type.vi</Path>
         <VI_Title>Get GOOP Object Type.vi</VI_Title>
       </Items_Data>
-      <GUID>2E22F8ECC673422F3085F9AD6F8EEF32</GUID>
+      <GUID>15C2A4AC69148284D8C4A2C382EFF0B1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
