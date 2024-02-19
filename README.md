@@ -11,3 +11,9 @@ The OpenG LabVIEW Data Library contains several routines for operating on Varian
 ## Installation
 
 [Install the OpenG Variant Data Library with VIPM](https://www.vipm.io/package/oglib_lvdata/) (a.k.a OpenG LabVIEW Data Library or oglib_lvdata)
+
+## How to Contribute
+
+Take a look at the [Good First Issues]([url](https://github.com/vipm-io/OpenG-Variant-Data-Library/issues?q=is%3Aissue+is%3Aopen+label%3Agood-first-issue)https://github.com/vipm-io/OpenG-Variant-Data-Library/issues?q=is%3Aissue+is%3Aopen+label%3Agood-first-issue) list and comment on an issue that you'd like to work on, so it can be "assigned" to you.
+
+Then, you can create a [Pull Request]([url](https://github.com/vipm-io/OpenG-Variant-Data-Library/pulls)https://github.com/vipm-io/OpenG-Variant-Data-Library/pulls) with your work.
