@@ -43,9 +43,6 @@
 				<Item Name="Variant Manipulation Templ.vit" Type="VI" URL="../source/library/Variant Manipulation Templ.vit">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
@@ -230,8 +227,12 @@
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
+		<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="ShowPackages" Type="Bool">false</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
