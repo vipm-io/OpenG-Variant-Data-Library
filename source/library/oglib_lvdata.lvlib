@@ -4,13 +4,25 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="support" Type="Folder">
+		<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
+	</Item>
+	<Item Name="typedefs" Type="Folder">
+		<Item Name="Base Units.ctl" Type="VI" URL="../Base Units.ctl"/>
+		<Item Name="Physical Units.ctl" Type="VI" URL="../Physical Units.ctl"/>
+		<Item Name="Refnum Code.ctl" Type="VI" URL="../Refnum Code.ctl"/>
+		<Item Name="Refnum Subtype Enum.ctl" Type="VI" URL="../Refnum Subtype Enum.ctl"/>
+		<Item Name="Type Descriptor Enumeration.ctl" Type="VI" URL="../Type Descriptor Enumeration.ctl"/>
+		<Item Name="Type Descriptor Header.ctl" Type="VI" URL="../Type Descriptor Header.ctl"/>
+		<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
+		<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../Waveform Subtype Enum.ctl"/>
+	</Item>
 	<Item Name="Array Dim(s) from TD.vi" Type="VI" URL="../Array Dim(s) from TD.vi"/>
 	<Item Name="Array of VData to VArray.vi" Type="VI" URL="../Array of VData to VArray.vi"/>
 	<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../Array of VData to VCluster.vi"/>
 	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
 	<Item Name="Array to Array of VData.vi" Type="VI" URL="../Array to Array of VData.vi"/>
 	<Item Name="Array to VCluster.vi" Type="VI" URL="../Array to VCluster.vi"/>
-	<Item Name="Base Units.ctl" Type="VI" URL="../Base Units.ctl"/>
 	<Item Name="Cluster to Array of VData.vi" Type="VI" URL="../Cluster to Array of VData.vi"/>
 	<Item Name="Cluster to VArray.vi" Type="VI" URL="../Cluster to VArray.vi"/>
 	<Item Name="Compute 1D Index.vi" Type="VI" URL="../Compute 1D Index.vi"/>
@@ -48,9 +60,6 @@
 	<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../LVOOP Return Class Name.vi"/>
 	<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../No of Elements in Cluster.vi"/>
 	<Item Name="Parse String with TDs.vi" Type="VI" URL="../Parse String with TDs.vi"/>
-	<Item Name="Physical Units.ctl" Type="VI" URL="../Physical Units.ctl"/>
-	<Item Name="Refnum Code.ctl" Type="VI" URL="../Refnum Code.ctl"/>
-	<Item Name="Refnum Subtype Enum.ctl" Type="VI" URL="../Refnum Subtype Enum.ctl"/>
 	<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../Remove Typedefs from Variant.vi"/>
 	<Item Name="Replace Array Element.vi" Type="VI" URL="../Replace Array Element.vi"/>
 	<Item Name="Reshape 1D Array.vi" Type="VI" URL="../Reshape 1D Array.vi"/>
@@ -61,11 +70,7 @@
 	<Item Name="Size of Data from TD.vi" Type="VI" URL="../Size of Data from TD.vi"/>
 	<Item Name="Split Cluster TD.vi" Type="VI" URL="../Split Cluster TD.vi"/>
 	<Item Name="Strip Units.vi" Type="VI" URL="../Strip Units.vi"/>
-	<Item Name="Type Descriptor Enumeration.ctl" Type="VI" URL="../Type Descriptor Enumeration.ctl"/>
-	<Item Name="Type Descriptor Header.ctl" Type="VI" URL="../Type Descriptor Header.ctl"/>
-	<Item Name="Type Descriptor.ctl" Type="VI" URL="../Type Descriptor.ctl"/>
 	<Item Name="Unwrap VVariant.vi" Type="VI" URL="../Unwrap VVariant.vi"/>
 	<Item Name="Variant Constant.vi" Type="VI" URL="../Variant Constant.vi"/>
 	<Item Name="Variant to Header Info.vi" Type="VI" URL="../Variant to Header Info.vi"/>
-	<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../Waveform Subtype Enum.ctl"/>
 </Library>
