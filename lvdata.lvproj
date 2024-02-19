@@ -39,200 +39,14 @@
 			</Item>
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
-				<Item Name="Array Dim(s) from TD.vi" Type="VI" URL="../source/library/Array Dim(s) from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Array of VData to VArray.vi" Type="VI" URL="../source/library/Array of VData to VArray.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../source/library/Array of VData to VCluster.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Array Size(s).vi" Type="VI" URL="../source/library/Array Size(s).vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Array to Array of VData.vi" Type="VI" URL="../source/library/Array to Array of VData.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Array to VCluster.vi" Type="VI" URL="../source/library/Array to VCluster.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Base Units.ctl" Type="VI" URL="../source/library/Base Units.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Cluster to Array of VData.vi" Type="VI" URL="../source/library/Cluster to Array of VData.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Cluster to VArray.vi" Type="VI" URL="../source/library/Cluster to VArray.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Compute 1D Index.vi" Type="VI" URL="../source/library/Compute 1D Index.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Array Element Default Data.vi" Type="VI" URL="../source/library/Get Array Element Default Data.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Array Element TD.vi" Type="VI" URL="../source/library/Get Array Element TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Array Element TDEnum.vi" Type="VI" URL="../source/library/Get Array Element TDEnum.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Cluster Element by Name.vi" Type="VI" URL="../source/library/Get Cluster Element by Name.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../source/library/Get Cluster Element Names.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Cluster Elements TDs.vi" Type="VI" URL="../source/library/Get Cluster Elements TDs.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Data Name from TD.vi" Type="VI" URL="../source/library/Get Data Name from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Data Name.vi" Type="VI" URL="../source/library/Get Data Name.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Data TD from Datalog Ref.vi" Type="VI" URL="../source/library/Get Data TD from Datalog Ref.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Default Data from TD.vi" Type="VI" URL="../source/library/Get Default Data from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Default Data from Variant.vi" Type="VI" URL="../source/library/Get Default Data from Variant.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Element TD from Array TD.vi" Type="VI" URL="../source/library/Get Element TD from Array TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get GOOP Object Type.vi" Type="VI" URL="../source/library/Get GOOP Object Type.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Header from TD.vi" Type="VI" URL="../source/library/Get Header from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Last PString.vi" Type="VI" URL="../source/library/Get Last PString.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Physical Units from TD.vi" Type="VI" URL="../source/library/Get Physical Units from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Physical Units.vi" Type="VI" URL="../source/library/Get Physical Units.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get PString.vi" Type="VI" URL="../source/library/Get PString.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Refnum Type Enum from Data.vi" Type="VI" URL="../source/library/Get Refnum Type Enum from Data.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Refnum Type Enum from TD.vi" Type="VI" URL="../source/library/Get Refnum Type Enum from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Strings from Enum TD.vi" Type="VI" URL="../source/library/Get Strings from Enum TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Strings from Enum.vi" Type="VI" URL="../source/library/Get Strings from Enum.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get TDEnum from Data.vi" Type="VI" URL="../source/library/Get TDEnum from Data.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get TDEnum from TD.vi" Type="VI" URL="../source/library/Get TDEnum from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Variant Attributes.vi" Type="VI" URL="../source/library/Get Variant Attributes.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Waveform Type Enum from Data.vi" Type="VI" URL="../source/library/Get Waveform Type Enum from Data.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Get Waveform Type Enum from TD.vi" Type="VI" URL="../source/library/Get Waveform Type Enum from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Index Array.vi" Type="VI" URL="../source/library/Index Array.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="LVOOP Get Default Object.vi" Type="VI" URL="../source/library/LVOOP Get Default Object.vi"/>
-				<Item Name="LVOOP Is Default Value.vi" Type="VI" URL="../source/library/LVOOP Is Default Value.vi"/>
-				<Item Name="LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../source/library/LVOOP Is Same Or Descendant Class.vi"/>
-				<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../source/library/LVOOP Return Class Name.vi"/>
-				<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../source/library/No of Elements in Cluster.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Parse String with TDs.vi" Type="VI" URL="../source/library/Parse String with TDs.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Physical Units.ctl" Type="VI" URL="../source/library/Physical Units.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Refnum Code.ctl" Type="VI" URL="../source/library/Refnum Code.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Refnum Subtype Enum.ctl" Type="VI" URL="../source/library/Refnum Subtype Enum.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../source/library/Remove Typedefs from Variant.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Replace Array Element.vi" Type="VI" URL="../source/library/Replace Array Element.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Reshape 1D Array.vi" Type="VI" URL="../source/library/Reshape 1D Array.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Reshape Array to 1D VArray.vi" Type="VI" URL="../source/library/Reshape Array to 1D VArray.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Set Cluster Element by Name.vi" Type="VI" URL="../source/library/Set Cluster Element by Name.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Set Data Name.vi" Type="VI" URL="../source/library/Set Data Name.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Set Enum String Value.vi" Type="VI" URL="../source/library/Set Enum String Value.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Size of Data from TD.vi" Type="VI" URL="../source/library/Size of Data from TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Split Cluster TD.vi" Type="VI" URL="../source/library/Split Cluster TD.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Strip Units.vi" Type="VI" URL="../source/library/Strip Units.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Type Descriptor Enumeration.ctl" Type="VI" URL="../source/library/Type Descriptor Enumeration.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Type Descriptor Header.ctl" Type="VI" URL="../source/library/Type Descriptor Header.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Type Descriptor.ctl" Type="VI" URL="../source/library/Type Descriptor.ctl">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Unwrap VVariant.vi" Type="VI" URL="../source/library/Unwrap VVariant.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Variant Constant.vi" Type="VI" URL="../source/library/Variant Constant.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
+				<Item Name="oglib_lvdata.lvlib" Type="Library" URL="../source/library/oglib_lvdata.lvlib"/>
 				<Item Name="Variant Manipulation Templ.vit" Type="VI" URL="../source/library/Variant Manipulation Templ.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Variant to Header Info.vi" Type="VI" URL="../source/library/Variant to Header Info.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../source/library/Waveform Subtype Enum.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
-			<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="source" Type="Folder">
@@ -413,8 +227,12 @@
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
+		<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="ShowPackages" Type="Bool">false</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

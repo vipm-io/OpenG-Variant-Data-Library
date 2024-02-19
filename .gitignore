@@ -5,3 +5,6 @@
 
 # Python virtual environment
 venv/
+
+# Built VIPM Package
+*.vip
