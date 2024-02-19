@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="support" Type="Folder">
+		<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
+	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="Base Units.ctl" Type="VI" URL="../Base Units.ctl"/>
 		<Item Name="Physical Units.ctl" Type="VI" URL="../Physical Units.ctl"/>
@@ -57,7 +60,6 @@
 	<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../LVOOP Return Class Name.vi"/>
 	<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../No of Elements in Cluster.vi"/>
 	<Item Name="Parse String with TDs.vi" Type="VI" URL="../Parse String with TDs.vi"/>
-	<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
 	<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../Remove Typedefs from Variant.vi"/>
 	<Item Name="Replace Array Element.vi" Type="VI" URL="../Replace Array Element.vi"/>
 	<Item Name="Reshape 1D Array.vi" Type="VI" URL="../Reshape 1D Array.vi"/>
