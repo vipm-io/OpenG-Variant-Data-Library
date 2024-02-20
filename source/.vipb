@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-02-19 19:30:24" Creator="Jonathon Green" Comments="" ID="c0f794bc0e2f88b84618bc33d211e5ac">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-02-19 19:58:09" Creator="Jonathon Green" Comments="" ID="ce6bd28c4888443565b697d23eeb0f5d">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>6.0.0.38</Library_Version>
+    <Library_Version>6.0.0.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -36,7 +36,14 @@
       <Packager>vipm.io</Packager>
       <URL>https://github.com/vipm-io/OpenG-Variant-Data-Library</URL>
       <Release_Notes>[6.0.0]
-Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Notes>
+- Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]
+- Basic Support for Maps and Sets (Get and Set Data Name) [Issue #20]
+- Move package VIs into an LVLIB [Issue # 15]
+- Change all VIs to source-only [Issue #9]
+- Support for FIXED-POINT datatype [Issue #6]
+
+Important: Callers of this package will relink automatically to the new Library (openg_variant.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -601,7 +608,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path/>
         <VI_Title>Type Descriptor</VI_Title>
       </Items_Data>
-      <GUID>4C4912D91ECC11CFC7E3E13D19CB296A</GUID>
+      <GUID>DBB77D77EF5639FF5C761A6CE1064357</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -650,7 +657,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Set Enum String Value.vi</Path>
         <VI_Title>Set Enum String Value.vi</VI_Title>
       </Items_Data>
-      <GUID>8171BCA5EEF98361FA60A23738A58E69</GUID>
+      <GUID>C19CD4731E8657E6CA36BB5AF9553088</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -811,7 +818,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Cluster to VArray.vi</Path>
         <VI_Title>Cluster to VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>203922947E764B7F0AD2DCC7F43FCC17</GUID>
+      <GUID>8FC477AC1FD31F7A096503E7058FD0C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1000,7 +1007,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Array to VCluster.vi</Path>
         <VI_Title>Array to VCluster.vi</VI_Title>
       </Items_Data>
-      <GUID>5EE6378A6A4EC65F55CE2B99BE6DF3FB</GUID>
+      <GUID>7160F9C0B7CD3D2F4905396D91833139</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1049,7 +1056,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get Physical Units.vi</Path>
         <VI_Title>Get Physical Units.vi</VI_Title>
       </Items_Data>
-      <GUID>6F2018749E95CBFA68DFA5CEEEEE15C2</GUID>
+      <GUID>FC45F7D2ED1EE919C49093FDE57B3C37</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1084,7 +1091,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Unwrap VVariant.vi</Path>
         <VI_Title>Unwrap VVariant.vi</VI_Title>
       </Items_Data>
-      <GUID>BB6FF3BC2E1CFA119C4D5FE71F03C413</GUID>
+      <GUID>73FC616E50EA2DA40BC40AC73E8D01A4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1329,7 +1336,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get Refnum Type Enum from TD.vi</Path>
         <VI_Title>Get Refnum Type Enum from TD.vi</VI_Title>
       </Items_Data>
-      <GUID>33130E5E070A5B56F30592B2A40465CD</GUID>
+      <GUID>280AAFBE924C743352B8B5FD7A212B52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1364,7 +1371,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Path>library\Get GOOP Object Type.vi</Path>
         <VI_Title>Get GOOP Object Type.vi</VI_Title>
       </Items_Data>
-      <GUID>F67CDC1A436466B65E381F5185EA2E7C</GUID>
+      <GUID>5E354EA288DF176F6E5AB9699B8931A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
