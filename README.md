@@ -1,6 +1,6 @@
 # OpenG Variant Data Library
 
-[![Image](https://www.vipm.io/package/oglib_lvdata/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_lvdata/) [![Image](https://www.vipm.io/package/oglib_lvdata/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_lvdata/)
+[![Image](https://www.vipm.io/package/oglib_lvdata/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_lvdata/) [![Image](https://www.vipm.io/package/oglib_lvdata/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_lvdata/) [![ci-checks](https://github.com/vipm-io/OpenG-Variant-Data-Library/actions/workflows/ci.yml/badge.svg)](https://github.com/vipm-io/OpenG-Variant-Data-Library/actions/workflows/ci.yml)
 
 ![image](https://github.com/vipm-io/OpenG-Variant-Data-Library/assets/381432/e497ca5a-18cb-4a96-b5d3-ea63e0e2b155)
 
