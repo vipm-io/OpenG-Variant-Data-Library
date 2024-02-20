@@ -26,13 +26,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          
 
       - name: Checkout Repo
         uses: actions/checkout@v4
 
       - name: Install pylavi
         run: |
-          pip install pylavi
+          pip install uv
+          uv pip install pylavi
 
       - name: Run pylavi Tests
         run: |
