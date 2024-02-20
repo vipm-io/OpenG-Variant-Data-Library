@@ -1,4 +1,4 @@
-name: pylavi-checks
+name: ci-checks
 
 on:
   push:
