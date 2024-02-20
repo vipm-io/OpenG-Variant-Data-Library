@@ -127,7 +127,7 @@ Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]</Release_Note
         <Namespace>__ogtk</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>library/oglib_lvdata.lvlib</Path>
+        <Path>library/openg_variant.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
