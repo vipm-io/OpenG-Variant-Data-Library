@@ -1,5 +1,0 @@
-VI Tree - lvdata.vi
-Get Waveform Type Enum from Data.vi
-Get Waveform Type Enum from TD.vi
-Get Refnum Type Enum from Data.vi
-Get Refnum Type Enum from TD.vi
