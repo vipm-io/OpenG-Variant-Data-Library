@@ -60,12 +60,15 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item Name="caraya_tests" Type="Folder">
-				<Item Name="support" Type="Folder">
-					<Item Name="Assert Data Name Round Trip.vi" Type="VI" URL="../tests/support/Assert Data Name Round Trip.vi"/>
+			<Item Name="Caraya Tests" Type="Folder">
+				<Item Name="Assertions Support" Type="Folder">
+					<Item Name="Assert Map to Array Round Trip.vim" Type="VI" URL="../tests/Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vim"/>
 				</Item>
 				<Item Name="Test Get-Set Data Name.vi" Type="VI" URL="../tests/Caraya Tests/Test Get-Set Data Name.vi"/>
 				<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../tests/Caraya Tests/Test Get Default Value for Type.vi"/>
+				<Item Name="Test Map to Array.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array.vi"/>
+				<Item Name="Test Map to Array - Cluster Elements.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array - Cluster Elements.vi"/>
+				<Item Name="Test Map to Array - Map Elements.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array - Map Elements.vi"/>
 			</Item>
 			<Item Name="exclused_vis.txt" Type="Document" URL="../tests/exclused_vis.txt"/>
 			<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../tests/TEST - Array Dim(s) from TD.vi">
@@ -232,6 +235,9 @@
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
+		<Item Name="support" Type="Folder">
+			<Item Name="Assert Data Name Round Trip.vi" Type="VI" URL="../tests/support/Assert Data Name Round Trip.vi"/>
+		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
@@ -242,8 +248,6 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Property Name="ShowPackages" Type="Bool">false</Property>
 		</Item>
-		<Item Name="Test Map to Array.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array.vi"/>
-		<Item Name="Assert Map to Array Round Trip.vi" Type="VI" URL="../tests/Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
