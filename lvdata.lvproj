@@ -60,6 +60,165 @@
 					</Item>
 				</Item>
 			</Item>
+<<<<<<< HEAD
+=======
+			<Item Name="Caraya Tests" Type="Folder">
+				<Item Name="Assertions Support" Type="Folder">
+					<Item Name="Assert Map to Array Round Trip.vim" Type="VI" URL="../tests/Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vim"/>
+				</Item>
+				<Item Name="Test Get-Set Data Name.vi" Type="VI" URL="../tests/Caraya Tests/Test Get-Set Data Name.vi"/>
+				<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../tests/Caraya Tests/Test Get Default Value for Type.vi"/>
+				<Item Name="Test Map to Array.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array.vi"/>
+				<Item Name="Test Map to Array - Cluster Elements.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array - Cluster Elements.vi"/>
+				<Item Name="Test Map to Array - Map Elements.vi" Type="VI" URL="../tests/Caraya Tests/Test Map to Array - Map Elements.vi"/>
+			</Item>
+			<Item Name="exclused_vis.txt" Type="Document" URL="../tests/exclused_vis.txt"/>
+			<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../tests/TEST - Array Dim(s) from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../tests/TEST - Array of VData to VArray.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Array of VData to VCluster.vi" Type="VI" URL="../tests/TEST - Array of VData to VCluster.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Array Size(s).vi" Type="VI" URL="../tests/TEST - Array Size(s).vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Array to Array of VData.vi" Type="VI" URL="../tests/TEST - Array to Array of VData.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Array to VCluster.vi" Type="VI" URL="../tests/TEST - Array to VCluster.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Cluster to Array of VData.vi" Type="VI" URL="../tests/TEST - Cluster to Array of VData.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Cluster to VArray.vi" Type="VI" URL="../tests/TEST - Cluster to VArray.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Compute 1D Index.vi" Type="VI" URL="../tests/TEST - Compute 1D Index.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Exotic Types.vi" Type="VI" URL="../tests/TEST - Exotic Types.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Array Element Default Data.vi" Type="VI" URL="../tests/TEST - Get Array Element Default Data.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Array Element TD.vi" Type="VI" URL="../tests/TEST - Get Array Element TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Array Element TDEnum.vi" Type="VI" URL="../tests/TEST - Get Array Element TDEnum.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Cluster Element by Name.vi" Type="VI" URL="../tests/TEST - Get Cluster Element by Name.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Cluster Element Names.vi" Type="VI" URL="../tests/TEST - Get Cluster Element Names.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Cluster Elements TDs.vi" Type="VI" URL="../tests/TEST - Get Cluster Elements TDs.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Data Name from TD.vi" Type="VI" URL="../tests/TEST - Get Data Name from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Data Name.vi" Type="VI" URL="../tests/TEST - Get Data Name.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Data TD from Datalog Ref.vi" Type="VI" URL="../tests/TEST - Get Data TD from Datalog Ref.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Default Data from TD.vi" Type="VI" URL="../tests/TEST - Get Default Data from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Default Data from Variant.vi" Type="VI" URL="../tests/TEST - Get Default Data from Variant.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Element TD from Array TD.vi" Type="VI" URL="../tests/TEST - Get Element TD from Array TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get GOOP Object Type.vi" Type="VI" URL="../tests/TEST - Get GOOP Object Type.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Header from TD.vi" Type="VI" URL="../tests/TEST - Get Header from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Last PString.vi" Type="VI" URL="../tests/TEST - Get Last PString.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Physical Units from TD.vi" Type="VI" URL="../tests/TEST - Get Physical Units from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Physical Units.vi" Type="VI" URL="../tests/TEST - Get Physical Units.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get PString.vi" Type="VI" URL="../tests/TEST - Get PString.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Strings from Enum TD.vi" Type="VI" URL="../tests/TEST - Get Strings from Enum TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Strings from Enum.vi" Type="VI" URL="../tests/TEST - Get Strings from Enum.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get TDEnum from Data.vi" Type="VI" URL="../tests/TEST - Get TDEnum from Data.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get TDEnum from TD.vi" Type="VI" URL="../tests/TEST - Get TDEnum from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Get Variant Attributes.vi" Type="VI" URL="../tests/TEST - Get Variant Attributes.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Index Array.vi" Type="VI" URL="../tests/TEST - Index Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - LVOOP Get Default Object.vi" Type="VI" URL="../tests/TEST - LVOOP Get Default Object.vi"/>
+			<Item Name="TEST - LVOOP Is Default Value.vi" Type="VI" URL="../tests/TEST - LVOOP Is Default Value.vi"/>
+			<Item Name="TEST - LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../tests/TEST - LVOOP Is Same Or Descendant Class.vi"/>
+			<Item Name="TEST - LVOOP Return Class Name.vi" Type="VI" URL="../tests/TEST - LVOOP Return Class Name.vi"/>
+			<Item Name="TEST - No of Elements in Cluster.vi" Type="VI" URL="../tests/TEST - No of Elements in Cluster.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Parse String with TDs.vi" Type="VI" URL="../tests/TEST - Parse String with TDs.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Remove Typedefs from Variant.vi" Type="VI" URL="../tests/TEST - Remove Typedefs from Variant.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Replace Array Element.vi" Type="VI" URL="../tests/TEST - Replace Array Element.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Reshape 1D Array.vi" Type="VI" URL="../tests/TEST - Reshape 1D Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Reshape Array to 1D VArray.vi" Type="VI" URL="../tests/TEST - Reshape Array to 1D VArray.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Set Cluster Element by Name.vi" Type="VI" URL="../tests/TEST - Set Cluster Element by Name.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Set Data Name - Attributes.vi" Type="VI" URL="../tests/TEST - Set Data Name - Attributes.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Set Data Name.vi" Type="VI" URL="../tests/TEST - Set Data Name.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Set Enum String Value.vi" Type="VI" URL="../tests/TEST - Set Enum String Value.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Size of Data from TD.vi" Type="VI" URL="../tests/TEST - Size of Data from TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Split Cluster TD.vi" Type="VI" URL="../tests/TEST - Split Cluster TD.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Strip Units.vi" Type="VI" URL="../tests/TEST - Strip Units.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+>>>>>>> adcff2f (added more unit tests)
 			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
@@ -68,6 +227,9 @@
 			</Item>
 			<Item Name="excluded_vis.txt" Type="Document" URL="../tests/excluded_vis.txt"/>
 			<Item Name="test_openg_array.lvlib" Type="Library" URL="../tests/test_openg_array.lvlib"/>
+		</Item>
+		<Item Name="support" Type="Folder">
+			<Item Name="Assert Data Name Round Trip.vi" Type="VI" URL="../tests/support/Assert Data Name Round Trip.vi"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
