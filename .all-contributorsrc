@@ -19,6 +19,15 @@
         "doc",
         "maintenance"
       ]
+    },
+    {
+      "login": "fbalzarotti",
+      "name": "Francisco Balzarotti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6661939?v=4",
+      "profile": "http://balzarotti-lab.org",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
