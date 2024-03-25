@@ -32,6 +32,7 @@ Take a look at the [Help Wanted](https://github.com/vipm-io/OpenG-Variant-Data-L
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RaphSchru"><img src="https://avatars.githubusercontent.com/u/31904233?v=4?s=100" width="100px;" alt="RaphSchru"/><br /><sub><b>RaphSchru</b></sub></a><br /><a href="#bug-RaphSchru" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bas-vE"><img src="https://avatars.githubusercontent.com/u/16207111?v=4?s=100" width="100px;" alt="Basve"/><br /><sub><b>Basve</b></sub></a><br /><a href="#code-Bas-vE" title="Code">💻</a> <a href="#test-Bas-vE" title="Tests">⚠️</a> <a href="#maintenance-Bas-vE" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/drjdpowell"><img src="https://avatars.githubusercontent.com/u/6072800?v=4?s=100" width="100px;" alt="drjdpowell"/><br /><sub><b>drjdpowell</b></sub></a><br /><a href="#code-drjdpowell" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GCraftsman"><img src="https://avatars.githubusercontent.com/u/18015549?v=4?s=100" width="100px;" alt="gcraftsman"/><br /><sub><b>gcraftsman</b></sub></a><br /><a href="#code-gcraftsman" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
