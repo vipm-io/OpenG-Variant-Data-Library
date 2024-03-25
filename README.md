@@ -30,6 +30,7 @@ Take a look at the [Help Wanted](https://github.com/vipm-io/OpenG-Variant-Data-L
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jimkring"><img src="https://avatars.githubusercontent.com/u/381432?v=4?s=100" width="100px;" alt="Jim Kring"/><br /><sub><b>Jim Kring</b></sub></a><br /><a href="#code-jimkring" title="Code">💻</a> <a href="#test-jimkring" title="Tests">⚠️</a> <a href="#doc-jimkring" title="Documentation">📖</a> <a href="#maintenance-jimkring" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://balzarotti-lab.org"><img src="https://avatars.githubusercontent.com/u/6661939?v=4?s=100" width="100px;" alt="Francisco Balzarotti"/><br /><sub><b>Francisco Balzarotti</b></sub></a><br /><a href="#bug-fbalzarotti" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RaphSchru"><img src="https://avatars.githubusercontent.com/u/31904233?v=4?s=100" width="100px;" alt="RaphSchru"/><br /><sub><b>RaphSchru</b></sub></a><br /><a href="#bug-RaphSchru" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bas-vE"><img src="https://avatars.githubusercontent.com/u/16207111?v=4?s=100" width="100px;" alt="Basve"/><br /><sub><b>Basve</b></sub></a><br /><a href="#code-Bas-vE" title="Code">💻</a> <a href="#test-Bas-vE" title="Tests">⚠️</a> <a href="#maintenance-Bas-vE" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
