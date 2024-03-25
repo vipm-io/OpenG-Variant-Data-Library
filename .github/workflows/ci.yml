@@ -10,41 +10,5 @@ on:
 
 jobs:
 
-  Checks:
-  
-    runs-on: ubuntu-latest
-
-    env:
-      LABVIEW_VERSION_NUMBER: '20.1'
-      LABVIEW_VERSION_YEAR: '2020'
-      LABVIEW_BITNESS: '64'
-
-    steps:
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          # cache: 'pip'
-          
-
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-
-      - name: Install pylavi
-        run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          uv venv
-          uv pip install pylavi
-
-      - name: Run pylavi Tests
-        run: |
-          echo running pylavi tests
-          source .venv/bin/activate
-          vi_validate \
-            --path source \
-            --path tests \
-            --gt 20 --lt 21 \
-            --skip *.vit \
-            --no-code \
-            --breakpoints
-          echo finished pylavi tests
+  ci-checks:
+    uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
