@@ -2,11 +2,14 @@
 
 ## Special thanks for all the people who had helped this project so far:
 
-* [Jean-Pierre Drolet](http://LINK_HERE)
-* Jim Kring @jimkring
-* [Jonathon Green](http://LINK_HERE)
-* [James David Powell]()
-* @Bas-vE
+* Jean-Pierre Drolet
+* [Jim Kring](@jimkring)
+* [JKI](@JKISoftware)
+* [Jonathon Green](@j-gcode)
+* [James David Powell](@drjdpowell)
+* [Bas-vE](@Bas-vE)
+* [Michael Lacasse](@gcraftsman)
+
 
 > If you think you can do it better, you can consider using [all-contributors](https://github.com/kentcdodds/all-contributors/) guidelines. This project itself uses it on the README file. You really should consider using them.
 
