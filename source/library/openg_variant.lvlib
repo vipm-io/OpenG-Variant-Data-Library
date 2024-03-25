@@ -38,6 +38,9 @@
 			<Item Name="Parse Timezone.vi" Type="VI" URL="../Parse Timezone.vi"/>
 			<Item Name="Merge Array Sizes.vi" Type="VI" URL="../Merge Array Sizes.vi"/>
 		</Item>
+		<Item Name="Collection" Type="Folder">
+			<Item Name="Get Collection Subtype.vi" Type="VI" URL="../Get Collection Subtype.vi"/>
+		</Item>
 		<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
 		<Item Name="convertClusterToObject.vi" Type="VI" URL="../LabVIEW Object/convertClusterToObject.vi"/>
 		<Item Name="convertObjectToCluster.vi" Type="VI" URL="../LabVIEW Object/convertObjectToCluster.vi"/>
