@@ -10,12 +10,15 @@
 		<Item Name="Assert Data Name Round Trip.vi" Type="VI" URL="../support/Assert Data Name Round Trip.vi"/>
 		<Item Name="Type Def.ctl" Type="VI" URL="../Type Def.ctl"/>
 		<Item Name="LVOOP Data.lvlib" Type="Library" URL="../LVOOP Data/LVOOP Data.lvlib"/>
+		<Item Name="Assert Map to Array Round Trip.vi" Type="VI" URL="../Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vi"/>
 	</Item>
 	<Item Name="Caraya Tests" Type="Folder">
 		<Item Name="TEST - Exotic Types.vi" Type="VI" URL="../TEST - Exotic Types.vi"/>
 		<Item Name="Test - LabVIEW Object to VCluster.vi" Type="VI" URL="../Test - LabVIEW Object to VCluster.vi"/>
 		<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../Caraya Tests/Test Get Default Value for Type.vi"/>
 		<Item Name="Test Get-Set Data Name.vi" Type="VI" URL="../Caraya Tests/Test Get-Set Data Name.vi"/>
+		<Item Name="Test Map to VArray of Clusters.vi" Type="VI" URL="../Test Map to VArray of Clusters.vi"/>
+		<Item Name="Test Array of Clusters to VMap.vi" Type="VI" URL="../Test Array of Clusters to VMap.vi"/>
 	</Item>
 	<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../TEST - Array Dim(s) from TD.vi"/>
 	<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../TEST - Array of VData to VArray.vi"/>

@@ -38,6 +38,9 @@
 			<Item Name="Parse Timezone.vi" Type="VI" URL="../Parse Timezone.vi"/>
 			<Item Name="Merge Array Sizes.vi" Type="VI" URL="../Merge Array Sizes.vi"/>
 		</Item>
+		<Item Name="Collection" Type="Folder">
+			<Item Name="Get Collection Subtype.vi" Type="VI" URL="../Get Collection Subtype.vi"/>
+		</Item>
 		<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
 		<Item Name="convertClusterToObject.vi" Type="VI" URL="../LabVIEW Object/convertClusterToObject.vi"/>
 		<Item Name="convertObjectToCluster.vi" Type="VI" URL="../LabVIEW Object/convertObjectToCluster.vi"/>
@@ -59,9 +62,10 @@
 		<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../Waveform Subtype Enum.ctl"/>
 	</Item>
 	<Item Name="Array Dim(s) from TD.vi" Type="VI" URL="../Array Dim(s) from TD.vi"/>
+	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
+	<Item Name="Array of Clusters to VMap.vi" Type="VI" URL="../Array of Clusters to VMap.vi"/>
 	<Item Name="Array of VData to VArray.vi" Type="VI" URL="../Array of VData to VArray.vi"/>
 	<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../Array of VData to VCluster.vi"/>
-	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
 	<Item Name="Array to Array of VData.vi" Type="VI" URL="../Array to Array of VData.vi"/>
 	<Item Name="Array to VCluster.vi" Type="VI" URL="../Array to VCluster.vi"/>
 	<Item Name="Cluster to Array of VData.vi" Type="VI" URL="../Cluster to Array of VData.vi"/>
@@ -70,8 +74,8 @@
 	<Item Name="Get Array Element Default Data.vi" Type="VI" URL="../Get Array Element Default Data.vi"/>
 	<Item Name="Get Array Element TD.vi" Type="VI" URL="../Get Array Element TD.vi"/>
 	<Item Name="Get Array Element TDEnum.vi" Type="VI" URL="../Get Array Element TDEnum.vi"/>
-	<Item Name="Get Cluster Element by Name.vi" Type="VI" URL="../Get Cluster Element by Name.vi"/>
 	<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../Get Cluster Element Names.vi"/>
+	<Item Name="Get Cluster Element by Name.vi" Type="VI" URL="../Get Cluster Element by Name.vi"/>
 	<Item Name="Get Cluster Elements TDs.vi" Type="VI" URL="../Get Cluster Elements TDs.vi"/>
 	<Item Name="Get Data Name from TD.vi" Type="VI" URL="../Get Data Name from TD.vi"/>
 	<Item Name="Get Data Name.vi" Type="VI" URL="../Get Data Name.vi"/>
@@ -82,9 +86,9 @@
 	<Item Name="Get GOOP Object Type.vi" Type="VI" URL="../Get GOOP Object Type.vi"/>
 	<Item Name="Get Header from TD.vi" Type="VI" URL="../Get Header from TD.vi"/>
 	<Item Name="Get Last PString.vi" Type="VI" URL="../Get Last PString.vi"/>
+	<Item Name="Get PString.vi" Type="VI" URL="../Get PString.vi"/>
 	<Item Name="Get Physical Units from TD.vi" Type="VI" URL="../Get Physical Units from TD.vi"/>
 	<Item Name="Get Physical Units.vi" Type="VI" URL="../Get Physical Units.vi"/>
-	<Item Name="Get PString.vi" Type="VI" URL="../Get PString.vi"/>
 	<Item Name="Get Refnum Type Enum from Data.vi" Type="VI" URL="../Get Refnum Type Enum from Data.vi"/>
 	<Item Name="Get Refnum Type Enum from TD.vi" Type="VI" URL="../Get Refnum Type Enum from TD.vi"/>
 	<Item Name="Get Strings from Enum TD.vi" Type="VI" URL="../Get Strings from Enum TD.vi"/>
@@ -99,6 +103,7 @@
 	<Item Name="LVOOP Is Default Value.vi" Type="VI" URL="../LVOOP Is Default Value.vi"/>
 	<Item Name="LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../LVOOP Is Same Or Descendant Class.vi"/>
 	<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../LVOOP Return Class Name.vi"/>
+	<Item Name="Map to VArray of Clusters.vi" Type="VI" URL="../Map to VArray of Clusters.vi"/>
 	<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../No of Elements in Cluster.vi"/>
 	<Item Name="Parse String with TDs.vi" Type="VI" URL="../Parse String with TDs.vi"/>
 	<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../Remove Typedefs from Variant.vi"/>

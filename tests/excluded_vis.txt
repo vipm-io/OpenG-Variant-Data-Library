@@ -22,3 +22,4 @@ MultiD Array to 1D Array of VArrays.vi
 Null VVariant Constant.vi
 Parse Timezone.vi
 Timestamp To ISO String.vi
+Get Collection Subtype.vi
