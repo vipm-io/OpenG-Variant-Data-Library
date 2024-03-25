@@ -37,6 +37,17 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Bas-vE",
+      "name": "Basve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16207111?v=4",
+      "profile": "https://github.com/Bas-vE",
+      "contributions": [
+        "code",
+        "test",
+        "maintenance"
+      ]
     }
   ]
 }
