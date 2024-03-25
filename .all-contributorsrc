@@ -48,6 +48,15 @@
         "test",
         "maintenance"
       ]
+    },
+    {
+      "login": "drjdpowell",
+      "name": "drjdpowell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6072800?v=4",
+      "profile": "https://github.com/drjdpowell",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
