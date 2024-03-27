@@ -119,4 +119,7 @@
 	<Item Name="Unwrap VVariant.vi" Type="VI" URL="../Unwrap VVariant.vi"/>
 	<Item Name="Variant Constant.vi" Type="VI" URL="../Variant Constant.vi"/>
 	<Item Name="Variant to Header Info.vi" Type="VI" URL="../Variant to Header Info.vi"/>
+	<Item Name="Set to VArray.vi" Type="VI" URL="../Set to VArray.vi"/>
+	<Item Name="Array to Set.vi" Type="VI" URL="../Array to Set.vi"/>
+	<Item Name="Get Array TD from Element TD.vi" Type="VI" URL="../Get Array TD from Element TD.vi"/>
 </Library>
