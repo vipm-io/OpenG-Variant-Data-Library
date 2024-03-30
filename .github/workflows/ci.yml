@@ -12,8 +12,4 @@ jobs:
 
   ci-checks:
     uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
-
-  auto-doc:
-    uses: vipm-io/OpenG-Tookit/.github/workflows/auto-doc.yml@main
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     secrets: inherit
