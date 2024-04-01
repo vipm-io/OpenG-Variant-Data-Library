@@ -12,19 +12,33 @@
 	<Item Name="Experimental" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="1D Array of VArrays to MultiD Array.vi" Type="VI" URL="../1D Array of VArrays to MultiD Array.vi"/>
-		<Item Name="MultiD Array to 1D Array of VArrays.vi" Type="VI" URL="../MultiD Array to 1D Array of VArrays.vi"/>
-		<Item Name="Hierarchical VArray to MultiD Array.vi" Type="VI" URL="../Hierarchical VArray to MultiD Array.vi"/>
-		<Item Name="Adapt To Type.vim" Type="VI" URL="../Adapt To Type.vim"/>
-		<Item Name="Adapt Variant Data To Type.vi" Type="VI" URL="../Adapt Variant Data To Type.vi"/>
-		<Item Name="Empty VArray Constant.vi" Type="VI" URL="../Empty VArray Constant.vi"/>
-		<Item Name="Empty VCluster Constant.vi" Type="VI" URL="../Empty VCluster Constant.vi"/>
-		<Item Name="Is Empty VArray.vi" Type="VI" URL="../Is Empty VArray.vi"/>
-		<Item Name="Is Empty VCluster.vi" Type="VI" URL="../Is Empty VCluster.vi"/>
-		<Item Name="Is Null VVariant.vi" Type="VI" URL="../Is Null VVariant.vi"/>
-		<Item Name="Null VVariant Constant.vi" Type="VI" URL="../Null VVariant Constant.vi"/>
-		<Item Name="LabVIEW Object to VCluster.vi" Type="VI" URL="../LabVIEW Object to VCluster.vi"/>
-		<Item Name="Cluster to LabVIEW Object.vi" Type="VI" URL="../Cluster to LabVIEW Object.vi"/>
+		<Item Name="Collections (Maps and Sets)" Type="Folder">
+			<Item Name="Map to VArray of Clusters.vi" Type="VI" URL="../Map to VArray of Clusters.vi"/>
+			<Item Name="Array of Clusters to VMap.vi" Type="VI" URL="../Array of Clusters to VMap.vi"/>
+			<Item Name="Set to VArray.vi" Type="VI" URL="../Set to VArray.vi"/>
+			<Item Name="Array to Set.vi" Type="VI" URL="../Array to Set.vi"/>
+		</Item>
+		<Item Name="Adapt to Type" Type="Folder">
+			<Item Name="Adapt To Type.vim" Type="VI" URL="../Adapt To Type.vim"/>
+			<Item Name="Adapt Variant Data To Type.vi" Type="VI" URL="../Adapt Variant Data To Type.vi"/>
+		</Item>
+		<Item Name="Constants and Comparisons" Type="Folder">
+			<Item Name="Empty VArray Constant.vi" Type="VI" URL="../Empty VArray Constant.vi"/>
+			<Item Name="Empty VCluster Constant.vi" Type="VI" URL="../Empty VCluster Constant.vi"/>
+			<Item Name="Is Empty VArray.vi" Type="VI" URL="../Is Empty VArray.vi"/>
+			<Item Name="Is Empty VCluster.vi" Type="VI" URL="../Is Empty VCluster.vi"/>
+			<Item Name="Is Null VVariant.vi" Type="VI" URL="../Is Null VVariant.vi"/>
+			<Item Name="Null VVariant Constant.vi" Type="VI" URL="../Null VVariant Constant.vi"/>
+		</Item>
+		<Item Name="Multi-Dimensional Array" Type="Folder">
+			<Item Name="MultiD Array to 1D Array of VArrays.vi" Type="VI" URL="../MultiD Array to 1D Array of VArrays.vi"/>
+			<Item Name="Hierarchical VArray to MultiD Array.vi" Type="VI" URL="../Hierarchical VArray to MultiD Array.vi"/>
+			<Item Name="1D Array of VArrays to MultiD Array.vi" Type="VI" URL="../1D Array of VArrays to MultiD Array.vi"/>
+		</Item>
+		<Item Name="Object (Class Private Data)" Type="Folder">
+			<Item Name="LabVIEW Object to VCluster.vi" Type="VI" URL="../LabVIEW Object to VCluster.vi"/>
+			<Item Name="Cluster to LabVIEW Object.vi" Type="VI" URL="../Cluster to LabVIEW Object.vi"/>
+		</Item>
 	</Item>
 	<Item Name="support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -63,7 +77,6 @@
 	</Item>
 	<Item Name="Array Dim(s) from TD.vi" Type="VI" URL="../Array Dim(s) from TD.vi"/>
 	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
-	<Item Name="Array of Clusters to VMap.vi" Type="VI" URL="../Array of Clusters to VMap.vi"/>
 	<Item Name="Array of VData to VArray.vi" Type="VI" URL="../Array of VData to VArray.vi"/>
 	<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../Array of VData to VCluster.vi"/>
 	<Item Name="Array to Array of VData.vi" Type="VI" URL="../Array to Array of VData.vi"/>
@@ -103,7 +116,6 @@
 	<Item Name="LVOOP Is Default Value.vi" Type="VI" URL="../LVOOP Is Default Value.vi"/>
 	<Item Name="LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../LVOOP Is Same Or Descendant Class.vi"/>
 	<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../LVOOP Return Class Name.vi"/>
-	<Item Name="Map to VArray of Clusters.vi" Type="VI" URL="../Map to VArray of Clusters.vi"/>
 	<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../No of Elements in Cluster.vi"/>
 	<Item Name="Parse String with TDs.vi" Type="VI" URL="../Parse String with TDs.vi"/>
 	<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../Remove Typedefs from Variant.vi"/>
@@ -119,7 +131,5 @@
 	<Item Name="Unwrap VVariant.vi" Type="VI" URL="../Unwrap VVariant.vi"/>
 	<Item Name="Variant Constant.vi" Type="VI" URL="../Variant Constant.vi"/>
 	<Item Name="Variant to Header Info.vi" Type="VI" URL="../Variant to Header Info.vi"/>
-	<Item Name="Set to VArray.vi" Type="VI" URL="../Set to VArray.vi"/>
-	<Item Name="Array to Set.vi" Type="VI" URL="../Array to Set.vi"/>
 	<Item Name="Get Array TD from Element TD.vi" Type="VI" URL="../Get Array TD from Element TD.vi"/>
 </Library>
