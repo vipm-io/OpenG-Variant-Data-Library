@@ -41,9 +41,6 @@
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="../source/library/openg_variant.lvlib"/>
-				<Item Name="Variant Manipulation Templ.vit" Type="VI" URL="../source/library/Variant Manipulation Templ.vit">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
@@ -217,10 +214,13 @@
 				<Item Name="7842910552F72B45FFAA5B67DFEBCBC5Empty 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7842910552F72B45FFAA5B67DFEBCBC5Empty 1D Array (String)__ogtk.vi"/>
 				<Item Name="Create Empty Set__vipm_lv_collection_ext.vim" Type="VI" URL="/&lt;vilib&gt;/VIPM/Collection_Extensions/Set/Create Empty Set__vipm_lv_collection_ext.vim"/>
 				<Item Name="Convert Array to Set__vipm_lv_collection_ext.vim" Type="VI" URL="/&lt;vilib&gt;/VIPM/Collection_Extensions/Set/Convert Array to Set__vipm_lv_collection_ext.vim"/>
+				<Item Name="LVBookmarkInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBookmarkInfoTypeDef.ctl"/>
+				<Item Name="Create Empty Map__vipm_lv_collection_ext.vim" Type="VI" URL="/&lt;vilib&gt;/VIPM/Collection_Extensions/Map/Create Empty Map__vipm_lv_collection_ext.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 			</Item>
+			<Item Name="Get Todo Bookmarks.vi" Type="VI" URL="../build support/Get Todo Bookmarks.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

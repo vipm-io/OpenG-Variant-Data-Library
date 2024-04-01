@@ -23,3 +23,8 @@ Null VVariant Constant.vi
 Parse Timezone.vi
 Timestamp To ISO String.vi
 Get Collection Subtype.vi
+
+# Temporarily skipped
+Array to Set.vi
+Get Array TD from Element TD.vi
+Set to VArray.vi
