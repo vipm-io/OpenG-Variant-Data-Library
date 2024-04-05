@@ -14,4 +14,4 @@ jobs:
     uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
     secrets: inherit
     with:
-      ci-container: ghcr.io/vipm-io/openg-variant-data-library:main
+      ci-container: "ghcr.io/vipm-io/openg-variant-data-library:main"
