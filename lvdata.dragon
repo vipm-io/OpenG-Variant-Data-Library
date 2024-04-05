@@ -9,3 +9,4 @@ vipc = 'source\.vipc'
 [vipm.dependencies]
 oglib_error = "6.0.0.26"
 jki_lib_caraya = "1.4.3.147"
+vipm_lib_labview_collection_extensions = "0.4.1.39"
