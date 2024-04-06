@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-04-01 12:34:50" Creator="Jonathon Green" Comments="" ID="e320e3b5592fc523d8259d1209ac4ebd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-04-05 17:27:12" Creator="Jonathon Green" Comments="" ID="f4660a5051f048f0311065b555417da7">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
     <Library_Version>6.0.0.46</Library_Version>
@@ -18,6 +18,8 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
+      <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -148,16 +150,10 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>images</Path>
       </Exclusions>
       <Exclusions>
-        <Path>user docs</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>library/LabVIEW Object/ReflectionExample</Path>
       </Exclusions>
       <Exclusions>
         <Path>library/VI Tree - lvdata.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>library/Variant Manipulation Templ.vit</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>user docs\License Agreement.txt</License_Agreement_Filepath>
@@ -665,7 +661,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>Collections</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFCB6F37B67D0D10F461AAE40BE4EE83</GUID>
+      <GUID>6EB2470C337D6085DDCA3B585523F700</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -714,7 +710,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Set Enum String Value.vi</Path>
         <VI_Title>Set Enum String Value.vi</VI_Title>
       </Items_Data>
-      <GUID>797E7647A3BB21F80655AAE224AC3516</GUID>
+      <GUID>DAD9F09641E145446E2659E836F68485</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -931,7 +927,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Is Empty VCluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27292315C025E7B9B7BA6F41789D3636</GUID>
+      <GUID>C09A97643BD0BBE06063321498E07359</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1176,7 +1172,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Is Empty VArray.vi</Path>
         <VI_Title>Is Empty VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>D3715670C2E9AF43CE32194E212CE7B2</GUID>
+      <GUID>276BF5652D780C79F6BB34366495D240</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1225,7 +1221,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Get Physical Units.vi</Path>
         <VI_Title>Get Physical Units.vi</VI_Title>
       </Items_Data>
-      <GUID>BCE9B18B791963761A98B79328F85311</GUID>
+      <GUID>40115CBC6C79AE364C7D183D98E7F593</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1288,7 +1284,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Null VVariant Constant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9026C901A04E006907C9629708A4D165</GUID>
+      <GUID>2095CB6EF3FAAF8277DDCE21C3589499</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1533,7 +1529,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Get Refnum Type Enum from TD.vi</Path>
         <VI_Title>Get Refnum Type Enum from TD.vi</VI_Title>
       </Items_Data>
-      <GUID>1BE59EC66462BD0390597387ADFE6774</GUID>
+      <GUID>9401FD24AF318E2386FFF3D437FA6C8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1596,7 +1592,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\LabVIEW Object to VCluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25AFB84E2DE24E1D1FB759449C297395</GUID>
+      <GUID>9CAA99CD73516FA4806A730E624E2628</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1673,7 +1669,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Set to VArray.vi</Path>
         <VI_Title>Set to VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>4037087ABEDB4DD4C72783FE7F74F8C7</GUID>
+      <GUID>4D3B353ECFA22600F37F0B280FB9D87A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
