@@ -38,6 +38,9 @@ Also, please the [OpenG Developer Guide](https://github.com/vipm-io/OpenG-Toolki
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GCraftsman"><img src="https://avatars.githubusercontent.com/u/18015549?v=4?s=100" width="100px;" alt="gcraftsman"/><br /><sub><b>gcraftsman</b></sub></a><br /><a href="#code-gcraftsman" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.jgcode.net"><img src="https://avatars.githubusercontent.com/u/16163577?v=4?s=100" width="100px;" alt="Jonathon Green"/><br /><sub><b>Jonathon Green</b></sub></a><br /><a href="#code-jg-code" title="Code">💻</a> <a href="#test-jg-code" title="Tests">⚠️</a> <a href="#doc-jg-code" title="Documentation">📖</a> <a href="#maintenance-jg-code" title="Maintenance">🚧</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/joec7598"><img src="https://avatars.githubusercontent.com/u/165210438?v=4?s=100" width="100px;" alt="joec7598"/><br /><sub><b>joec7598</b></sub></a><br /><a href="#code-joec7598" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
