@@ -5,7 +5,10 @@
 
 # Python virtual environment
 venv/
+.venv/
 
 # Built VIPM Package
 *.vip
 report.xml
+/.venv
+coverage.json

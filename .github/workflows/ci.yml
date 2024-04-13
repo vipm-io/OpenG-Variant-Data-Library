@@ -5,7 +5,10 @@ on:
     branches:
       - main
       - master
-  pull_request:
+    paths-ignore: |
+      *.md
+      .*
+      LICENSE
   workflow_dispatch:
 
 jobs:
