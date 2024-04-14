@@ -10,4 +10,6 @@
 	<Item Name="Class 1.lvclass" Type="LVClass" URL="../Class 1/Class 1.lvclass"/>
 	<Item Name="Class 2.lvclass" Type="LVClass" URL="../Class 2/Class 2.lvclass"/>
 	<Item Name="Class 3.lvclass" Type="LVClass" URL="../Class 3/Class 3.lvclass"/>
+	<Item Name="Top Level Data.lvclass" Type="LVClass" URL="../Top Level Class/Top Level Data.lvclass"/>
+	<Item Name="Subclass Data.lvclass" Type="LVClass" URL="../Subclass Data/Subclass Data.lvclass"/>
 </Library>

@@ -73,5 +73,7 @@
 	<Item Name="TEST - Strip Units.vi" Type="VI" URL="../TEST - Strip Units.vi"/>
 	<Item Name="TEST - Unwrap VVariant.vi" Type="VI" URL="../TEST - Unwrap VVariant.vi"/>
 	<Item Name="TEST - Variant Constant.vi" Type="VI" URL="../TEST - Variant Constant.vi"/>
+	<Item Name="TEST - Object Cluster Equivalence.vi" Type="VI" URL="../TEST - Object Cluster Equivalence.vi"/>
+	<Item Name="TEST - Object Recursion.vi" Type="VI" URL="../TEST - Object Recursion.vi"/>
 	<Item Name="TEST - Variant to Header Info.vi" Type="VI" URL="../TEST - Variant to Header Info.vi"/>
 </Library>
