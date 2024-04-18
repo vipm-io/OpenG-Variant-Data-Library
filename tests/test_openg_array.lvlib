@@ -13,6 +13,25 @@
 		<Item Name="Assert Map to Array Round Trip.vi" Type="VI" URL="../Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vi"/>
 	</Item>
 	<Item Name="Caraya Tests" Type="Folder">
+		<Item Name="Arrays" Type="Folder">
+			<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../TEST - Array Dim(s) from TD.vi"/>
+			<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../TEST - Array of VData to VArray.vi"/>
+			<Item Name="TEST - Array of VData to VCluster.vi" Type="VI" URL="../TEST - Array of VData to VCluster.vi"/>
+			<Item Name="TEST - Array Size(s).vi" Type="VI" URL="../TEST - Array Size(s).vi"/>
+			<Item Name="TEST - Array to Array of VData.vi" Type="VI" URL="../TEST - Array to Array of VData.vi"/>
+			<Item Name="TEST - Array to VCluster.vi" Type="VI" URL="../TEST - Array to VCluster.vi"/>
+			<Item Name="TEST - Compute 1D Index.vi" Type="VI" URL="../TEST - Compute 1D Index.vi"/>
+			<Item Name="TEST - Get Array Element Default Data.vi" Type="VI" URL="../TEST - Get Array Element Default Data.vi"/>
+			<Item Name="TEST - Get Array Element TD.vi" Type="VI" URL="../TEST - Get Array Element TD.vi"/>
+			<Item Name="TEST - Get Array Element TDEnum.vi" Type="VI" URL="../TEST - Get Array Element TDEnum.vi"/>
+		</Item>
+		<Item Name="Cluster" Type="Folder">
+			<Item Name="TEST - Cluster to Array of VData.vi" Type="VI" URL="../TEST - Cluster to Array of VData.vi"/>
+			<Item Name="TEST - Cluster to VArray.vi" Type="VI" URL="../TEST - Cluster to VArray.vi"/>
+			<Item Name="TEST - Get Cluster Element by Name.vi" Type="VI" URL="../TEST - Get Cluster Element by Name.vi"/>
+			<Item Name="TEST - Get Cluster Element Names.vi" Type="VI" URL="../TEST - Get Cluster Element Names.vi"/>
+			<Item Name="TEST - Get Cluster Elements TDs.vi" Type="VI" URL="../TEST - Get Cluster Elements TDs.vi"/>
+		</Item>
 		<Item Name="TEST - Exotic Types.vi" Type="VI" URL="../TEST - Exotic Types.vi"/>
 		<Item Name="Test - LabVIEW Object to VCluster.vi" Type="VI" URL="../Test - LabVIEW Object to VCluster.vi"/>
 		<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../Caraya Tests/Test Get Default Value for Type.vi"/>
@@ -21,21 +40,6 @@
 		<Item Name="Test Array of Clusters to VMap.vi" Type="VI" URL="../Test Array of Clusters to VMap.vi"/>
 		<Item Name="TEST - Array to Set - Set to Array.vi" Type="VI" URL="../TEST - Array to Set - Set to Array.vi"/>
 	</Item>
-	<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../TEST - Array Dim(s) from TD.vi"/>
-	<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../TEST - Array of VData to VArray.vi"/>
-	<Item Name="TEST - Array of VData to VCluster.vi" Type="VI" URL="../TEST - Array of VData to VCluster.vi"/>
-	<Item Name="TEST - Array Size(s).vi" Type="VI" URL="../TEST - Array Size(s).vi"/>
-	<Item Name="TEST - Array to Array of VData.vi" Type="VI" URL="../TEST - Array to Array of VData.vi"/>
-	<Item Name="TEST - Array to VCluster.vi" Type="VI" URL="../TEST - Array to VCluster.vi"/>
-	<Item Name="TEST - Cluster to Array of VData.vi" Type="VI" URL="../TEST - Cluster to Array of VData.vi"/>
-	<Item Name="TEST - Cluster to VArray.vi" Type="VI" URL="../TEST - Cluster to VArray.vi"/>
-	<Item Name="TEST - Compute 1D Index.vi" Type="VI" URL="../TEST - Compute 1D Index.vi"/>
-	<Item Name="TEST - Get Array Element Default Data.vi" Type="VI" URL="../TEST - Get Array Element Default Data.vi"/>
-	<Item Name="TEST - Get Array Element TD.vi" Type="VI" URL="../TEST - Get Array Element TD.vi"/>
-	<Item Name="TEST - Get Array Element TDEnum.vi" Type="VI" URL="../TEST - Get Array Element TDEnum.vi"/>
-	<Item Name="TEST - Get Cluster Element by Name.vi" Type="VI" URL="../TEST - Get Cluster Element by Name.vi"/>
-	<Item Name="TEST - Get Cluster Element Names.vi" Type="VI" URL="../TEST - Get Cluster Element Names.vi"/>
-	<Item Name="TEST - Get Cluster Elements TDs.vi" Type="VI" URL="../TEST - Get Cluster Elements TDs.vi"/>
 	<Item Name="TEST - Get Data Name from TD.vi" Type="VI" URL="../TEST - Get Data Name from TD.vi"/>
 	<Item Name="TEST - Get Data Name.vi" Type="VI" URL="../TEST - Get Data Name.vi"/>
 	<Item Name="TEST - Get Data TD from Datalog Ref.vi" Type="VI" URL="../TEST - Get Data TD from Datalog Ref.vi"/>
