@@ -59,7 +59,7 @@
 				</Item>
 			</Item>
 			<Item Name="excluded_vis.txt" Type="Document" URL="../tests/excluded_vis.txt"/>
-			<Item Name="test_openg_array.lvlib" Type="Library" URL="../tests/test_openg_array.lvlib"/>
+			<Item Name="test_openg_variant.lvlib" Type="Library" URL="../tests/test_openg_variant.lvlib"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi">
 			<Property Name="marked" Type="Int">0</Property>
