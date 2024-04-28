@@ -42,7 +42,7 @@
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="../source/library/openg_variant.lvlib"/>
-				<Item Name="lvdata.lvlib" Type="Library" URL="../source/library/lvdata.lvlib"/>
+				<Item Name="variant.lvlib" Type="Library" URL="../source/library/variant.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
