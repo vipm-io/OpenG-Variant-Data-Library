@@ -15,8 +15,8 @@
 	</Item>
 	<Item Name="Bytes.lvclass" Type="LVClass" URL="../Bytes/Bytes.lvclass"/>
 	<Item Name="type.lvlib" Type="Library" URL="../type.lvlib"/>
-	<Item Name="data.lvlib" Type="Library" URL="../LVData/DataString/data.lvlib"/>
 	<Item Name="variant.lvclass" Type="LVClass" URL="../LVData/variant.lvclass"/>
+	<Item Name="data.lvlib" Type="Library" URL="../LVData/DataString/data.lvlib"/>
 	<Item Name="Get LVType Info.vim" Type="VI" URL="../Get LVType Info.vim"/>
 	<Item Name="Get Strings from Enum TD.vi" Type="VI" URL="../LVData/Get Strings from Enum TD.vi"/>
 	<Item Name="Get PString.vi" Type="VI" URL="../LVData/Get PString.vi"/>

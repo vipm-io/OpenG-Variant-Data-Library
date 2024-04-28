@@ -26,4 +26,13 @@
 	<Item Name="DataString.ctl" Type="Class Private Data" URL="DataString.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="from_flattened_string.vi" Type="VI" URL="../from_flattened_string.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!N$8:B=GFB&lt;H1O&lt;(:M;7)+:'&amp;U93ZM&gt;GRJ9B*%982B5X2S;7ZH,GRW9WRB=X-!$E2B&gt;'&amp;4&gt;(*J&lt;G=A&lt;X6U!!"%1(!!(A!!,1VW98*J97ZU,GRW&lt;'FC#G2B&gt;'%O&lt;(:M;7)32'&amp;U96.U=GFO:SZM&gt;G.M98.T!!V%982B5X2S;7ZH)'FO!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QNT&gt;(*J&lt;G&gt;@:'&amp;U91"B!0!!$!!$!!1!"!!&amp;!!1!"A!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!!!!!!!U&amp;!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!!!!!!!!!!#%!!!$1!!!!9!!!!!!!!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+	</Item>
 </LVClass>

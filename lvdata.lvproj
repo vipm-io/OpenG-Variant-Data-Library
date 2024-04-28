@@ -69,6 +69,9 @@
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="TEST NEW VIs.vi" Type="VI" URL="../source/TEST NEW VIs.vi"/>
+		<Item Name="Untitled 27.vi" Type="VI" URL="../source/library/LVData/Untitled 27.vi"/>
+		<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../source/library/LVData/No of Elements in Cluster.vi"/>
+		<Item Name="Get Refnum Type Enum from TD.vi" Type="VI" URL="../source/library/LVData/Type Descriptor/Get Refnum Type Enum from TD.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Property Name="ShowPackages" Type="Bool">false</Property>
@@ -243,6 +246,8 @@
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Cluster to Array of VData.vi" Type="VI" URL="../source/library/LVData/Cluster to Array of VData.vi"/>
+			<Item Name="TypeDescriptor.ctl" Type="VI" URL="../source/library/LVData/Type Descriptor/TypeDescriptor.lvclass/TypeDescriptor.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
