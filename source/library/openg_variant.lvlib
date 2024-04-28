@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="test_openg_array.lvlib" Type="Friended Library" URL="../../../tests/test_openg_array.lvlib"/>
 	</Item>
@@ -55,7 +54,6 @@
 		<Item Name="Collection" Type="Folder">
 			<Item Name="Get Collection Subtype.vi" Type="VI" URL="../Get Collection Subtype.vi"/>
 		</Item>
-		<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
 		<Item Name="convertClusterToObject.vi" Type="VI" URL="../LabVIEW Object/convertClusterToObject.vi"/>
 		<Item Name="convertObjectToCluster.vi" Type="VI" URL="../LabVIEW Object/convertObjectToCluster.vi"/>
 		<Item Name="ClassLoader.lvclass" Type="LVClass" URL="../LabVIEW Object/ClassLoader/ClassLoader.lvclass"/>
@@ -76,9 +74,9 @@
 		<Item Name="Waveform Subtype Enum.ctl" Type="VI" URL="../Waveform Subtype Enum.ctl"/>
 	</Item>
 	<Item Name="Array Dim(s) from TD.vi" Type="VI" URL="../Array Dim(s) from TD.vi"/>
-	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
 	<Item Name="Array of VData to VArray.vi" Type="VI" URL="../Array of VData to VArray.vi"/>
 	<Item Name="Array of VData to VCluster.vi" Type="VI" URL="../Array of VData to VCluster.vi"/>
+	<Item Name="Array Size(s).vi" Type="VI" URL="../Array Size(s).vi"/>
 	<Item Name="Array to Array of VData.vi" Type="VI" URL="../Array to Array of VData.vi"/>
 	<Item Name="Array to VCluster.vi" Type="VI" URL="../Array to VCluster.vi"/>
 	<Item Name="Cluster to Array of VData.vi" Type="VI" URL="../Cluster to Array of VData.vi"/>
@@ -87,8 +85,9 @@
 	<Item Name="Get Array Element Default Data.vi" Type="VI" URL="../Get Array Element Default Data.vi"/>
 	<Item Name="Get Array Element TD.vi" Type="VI" URL="../Get Array Element TD.vi"/>
 	<Item Name="Get Array Element TDEnum.vi" Type="VI" URL="../Get Array Element TDEnum.vi"/>
-	<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../Get Cluster Element Names.vi"/>
+	<Item Name="Get Array TD from Element TD.vi" Type="VI" URL="../Get Array TD from Element TD.vi"/>
 	<Item Name="Get Cluster Element by Name.vi" Type="VI" URL="../Get Cluster Element by Name.vi"/>
+	<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../Get Cluster Element Names.vi"/>
 	<Item Name="Get Cluster Elements TDs.vi" Type="VI" URL="../Get Cluster Elements TDs.vi"/>
 	<Item Name="Get Data Name from TD.vi" Type="VI" URL="../Get Data Name from TD.vi"/>
 	<Item Name="Get Data Name.vi" Type="VI" URL="../Get Data Name.vi"/>
@@ -99,9 +98,9 @@
 	<Item Name="Get GOOP Object Type.vi" Type="VI" URL="../Get GOOP Object Type.vi"/>
 	<Item Name="Get Header from TD.vi" Type="VI" URL="../Get Header from TD.vi"/>
 	<Item Name="Get Last PString.vi" Type="VI" URL="../Get Last PString.vi"/>
-	<Item Name="Get PString.vi" Type="VI" URL="../Get PString.vi"/>
 	<Item Name="Get Physical Units from TD.vi" Type="VI" URL="../Get Physical Units from TD.vi"/>
 	<Item Name="Get Physical Units.vi" Type="VI" URL="../Get Physical Units.vi"/>
+	<Item Name="Get PString.vi" Type="VI" URL="../Get PString.vi"/>
 	<Item Name="Get Refnum Type Enum from Data.vi" Type="VI" URL="../Get Refnum Type Enum from Data.vi"/>
 	<Item Name="Get Refnum Type Enum from TD.vi" Type="VI" URL="../Get Refnum Type Enum from TD.vi"/>
 	<Item Name="Get Strings from Enum TD.vi" Type="VI" URL="../Get Strings from Enum TD.vi"/>
@@ -118,6 +117,7 @@
 	<Item Name="LVOOP Return Class Name.vi" Type="VI" URL="../LVOOP Return Class Name.vi"/>
 	<Item Name="No of Elements in Cluster.vi" Type="VI" URL="../No of Elements in Cluster.vi"/>
 	<Item Name="Parse String with TDs.vi" Type="VI" URL="../Parse String with TDs.vi"/>
+	<Item Name="Raise Error for Sets Before 2024.vi" Type="VI" URL="../Support/Raise Error for Sets Before 2024.vi"/>
 	<Item Name="Remove Typedefs from Variant.vi" Type="VI" URL="../Remove Typedefs from Variant.vi"/>
 	<Item Name="Replace Array Element.vi" Type="VI" URL="../Replace Array Element.vi"/>
 	<Item Name="Reshape 1D Array.vi" Type="VI" URL="../Reshape 1D Array.vi"/>
@@ -131,5 +131,4 @@
 	<Item Name="Unwrap VVariant.vi" Type="VI" URL="../Unwrap VVariant.vi"/>
 	<Item Name="Variant Constant.vi" Type="VI" URL="../Variant Constant.vi"/>
 	<Item Name="Variant to Header Info.vi" Type="VI" URL="../Variant to Header Info.vi"/>
-	<Item Name="Get Array TD from Element TD.vi" Type="VI" URL="../Get Array TD from Element TD.vi"/>
 </Library>

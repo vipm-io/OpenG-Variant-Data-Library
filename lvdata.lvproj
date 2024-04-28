@@ -42,6 +42,7 @@
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="../source/library/openg_variant.lvlib"/>
+				<Item Name="lvdata.lvlib" Type="Library" URL="../source/library/lvdata.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder"/>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
@@ -67,6 +68,7 @@
 		<Item Name="VI Tree - lvdata.vi" Type="VI" URL="../source/library/VI Tree - lvdata.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
+		<Item Name="TEST NEW VIs.vi" Type="VI" URL="../source/TEST NEW VIs.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Property Name="ShowPackages" Type="Bool">false</Property>
@@ -230,6 +232,7 @@
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Windows.vi"/>
 				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
+				<Item Name="Assert Same or Descendant Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Same or Descendant Type.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
