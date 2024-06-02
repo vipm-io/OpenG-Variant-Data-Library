@@ -9,7 +9,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Assert Data Name Round Trip.vi" Type="VI" URL="../support/Assert Data Name Round Trip.vi"/>
 		<Item Name="Type Def.ctl" Type="VI" URL="../Type Def.ctl"/>
-		<Item Name="LVOOP Data.lvlib" Type="Library" URL="../LVOOP Data/LVOOP Data.lvlib"/>
 		<Item Name="Assert Map to Array Round Trip.vi" Type="VI" URL="../Caraya Tests/Assertions Support/Assert Map to Array Round Trip.vi"/>
 	</Item>
 	<Item Name="Caraya Tests" Type="Folder">
@@ -24,6 +23,10 @@
 			<Item Name="TEST - Get Array Element Default Data.vi" Type="VI" URL="../TEST - Get Array Element Default Data.vi"/>
 			<Item Name="TEST - Get Array Element TD.vi" Type="VI" URL="../TEST - Get Array Element TD.vi"/>
 			<Item Name="TEST - Get Array Element TDEnum.vi" Type="VI" URL="../TEST - Get Array Element TDEnum.vi"/>
+			<Item Name="TEST - Index Array.vi" Type="VI" URL="../TEST - Index Array.vi"/>
+			<Item Name="TEST - Replace Array Element.vi" Type="VI" URL="../TEST - Replace Array Element.vi"/>
+			<Item Name="TEST - Reshape 1D Array.vi" Type="VI" URL="../TEST - Reshape 1D Array.vi"/>
+			<Item Name="TEST - Reshape Array to 1D VArray.vi" Type="VI" URL="../TEST - Reshape Array to 1D VArray.vi"/>
 		</Item>
 		<Item Name="Cluster" Type="Folder">
 			<Item Name="TEST - Cluster to Array of VData.vi" Type="VI" URL="../TEST - Cluster to Array of VData.vi"/>
@@ -31,51 +34,56 @@
 			<Item Name="TEST - Get Cluster Element by Name.vi" Type="VI" URL="../TEST - Get Cluster Element by Name.vi"/>
 			<Item Name="TEST - Get Cluster Element Names.vi" Type="VI" URL="../TEST - Get Cluster Element Names.vi"/>
 			<Item Name="TEST - Get Cluster Elements TDs.vi" Type="VI" URL="../TEST - Get Cluster Elements TDs.vi"/>
+			<Item Name="TEST - Set Cluster Element by Name.vi" Type="VI" URL="../TEST - Set Cluster Element by Name.vi"/>
 		</Item>
-		<Item Name="TEST - Exotic Types.vi" Type="VI" URL="../TEST - Exotic Types.vi"/>
-		<Item Name="Test - LabVIEW Object to VCluster.vi" Type="VI" URL="../Test - LabVIEW Object to VCluster.vi"/>
-		<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../Caraya Tests/Test Get Default Value for Type.vi"/>
-		<Item Name="Test Get-Set Data Name.vi" Type="VI" URL="../Caraya Tests/Test Get-Set Data Name.vi"/>
-		<Item Name="Test Map to VArray of Clusters.vi" Type="VI" URL="../Test Map to VArray of Clusters.vi"/>
-		<Item Name="Test Array of Clusters to VMap.vi" Type="VI" URL="../Test Array of Clusters to VMap.vi"/>
-		<Item Name="TEST - Array to Set - Set to Array.vi" Type="VI" URL="../TEST - Array to Set - Set to Array.vi"/>
+		<Item Name="TD" Type="Folder">
+			<Item Name="TEST - Parse String with TDs.vi" Type="VI" URL="../TEST - Parse String with TDs.vi"/>
+			<Item Name="TEST - Get Data Name from TD.vi" Type="VI" URL="../TEST - Get Data Name from TD.vi"/>
+			<Item Name="TEST - Get Header from TD.vi" Type="VI" URL="../TEST - Get Header from TD.vi"/>
+			<Item Name="TEST - Get Default Data from TD.vi" Type="VI" URL="../TEST - Get Default Data from TD.vi"/>
+			<Item Name="TEST - Get Element TD from Array TD.vi" Type="VI" URL="../TEST - Get Element TD from Array TD.vi"/>
+			<Item Name="TEST - Get Physical Units from TD.vi" Type="VI" URL="../TEST - Get Physical Units from TD.vi"/>
+			<Item Name="TEST - Get Strings from Enum TD.vi" Type="VI" URL="../TEST - Get Strings from Enum TD.vi"/>
+			<Item Name="TEST - Get TDEnum from TD.vi" Type="VI" URL="../TEST - Get TDEnum from TD.vi"/>
+			<Item Name="TEST - Size of Data from TD.vi" Type="VI" URL="../TEST - Size of Data from TD.vi"/>
+			<Item Name="TEST - Split Cluster TD.vi" Type="VI" URL="../TEST - Split Cluster TD.vi"/>
+			<Item Name="TEST - Get Data TD from Datalog Ref.vi" Type="VI" URL="../TEST - Get Data TD from Datalog Ref.vi"/>
+			<Item Name="TEST - Get TDEnum from Data.vi" Type="VI" URL="../TEST - Get TDEnum from Data.vi"/>
+		</Item>
+		<Item Name="OOP" Type="Folder">
+			<Item Name="LVOOP Data.lvlib" Type="Library" URL="../LVOOP Data/LVOOP Data.lvlib"/>
+			<Item Name="Test - LabVIEW Object to VCluster.vi" Type="VI" URL="../Test - LabVIEW Object to VCluster.vi"/>
+			<Item Name="TEST - LVOOP Get Default Object.vi" Type="VI" URL="../TEST - LVOOP Get Default Object.vi"/>
+			<Item Name="TEST - LVOOP Return Class Name.vi" Type="VI" URL="../TEST - LVOOP Return Class Name.vi"/>
+			<Item Name="TEST - Get GOOP Object Type.vi" Type="VI" URL="../TEST - Get GOOP Object Type.vi"/>
+			<Item Name="TEST - LVOOP Is Default Value.vi" Type="VI" URL="../TEST - LVOOP Is Default Value.vi"/>
+			<Item Name="TEST - LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../TEST - LVOOP Is Same Or Descendant Class.vi"/>
+		</Item>
+		<Item Name="Complex" Type="Folder">
+			<Item Name="Test Map to VArray of Clusters.vi" Type="VI" URL="../Test Map to VArray of Clusters.vi"/>
+			<Item Name="Test Array of Clusters to VMap.vi" Type="VI" URL="../Test Array of Clusters to VMap.vi"/>
+			<Item Name="TEST - Exotic Types.vi" Type="VI" URL="../TEST - Exotic Types.vi"/>
+			<Item Name="TEST - Array to Set - Set to Array.vi" Type="VI" URL="../TEST - Array to Set - Set to Array.vi"/>
+		</Item>
+		<Item Name="Attributes" Type="Folder">
+			<Item Name="Test Get Default Value for Type.vi" Type="VI" URL="../Caraya Tests/Test Get Default Value for Type.vi"/>
+			<Item Name="Test Get-Set Data Name.vi" Type="VI" URL="../Caraya Tests/Test Get-Set Data Name.vi"/>
+			<Item Name="TEST - Get Default Data from Variant.vi" Type="VI" URL="../TEST - Get Default Data from Variant.vi"/>
+			<Item Name="TEST - Get Last PString.vi" Type="VI" URL="../TEST - Get Last PString.vi"/>
+			<Item Name="TEST - Get Physical Units.vi" Type="VI" URL="../TEST - Get Physical Units.vi"/>
+			<Item Name="TEST - Get PString.vi" Type="VI" URL="../TEST - Get PString.vi"/>
+			<Item Name="TEST - Get Strings from Enum.vi" Type="VI" URL="../TEST - Get Strings from Enum.vi"/>
+			<Item Name="TEST - No of Elements in Cluster.vi" Type="VI" URL="../TEST - No of Elements in Cluster.vi"/>
+			<Item Name="TEST - Remove Typedefs from Variant.vi" Type="VI" URL="../TEST - Remove Typedefs from Variant.vi"/>
+			<Item Name="TEST - Set Data Name - Attributes.vi" Type="VI" URL="../TEST - Set Data Name - Attributes.vi"/>
+			<Item Name="TEST - Get Data Name.vi" Type="VI" URL="../TEST - Get Data Name.vi"/>
+			<Item Name="TEST - Set Data Name.vi" Type="VI" URL="../TEST - Set Data Name.vi"/>
+			<Item Name="TEST - Set Enum String Value.vi" Type="VI" URL="../TEST - Set Enum String Value.vi"/>
+			<Item Name="TEST - Strip Units.vi" Type="VI" URL="../TEST - Strip Units.vi"/>
+			<Item Name="TEST - Unwrap VVariant.vi" Type="VI" URL="../TEST - Unwrap VVariant.vi"/>
+			<Item Name="TEST - Get Variant Attributes.vi" Type="VI" URL="../TEST - Get Variant Attributes.vi"/>
+			<Item Name="TEST - Variant Constant.vi" Type="VI" URL="../TEST - Variant Constant.vi"/>
+			<Item Name="TEST - Variant to Header Info.vi" Type="VI" URL="../TEST - Variant to Header Info.vi"/>
+		</Item>
 	</Item>
-	<Item Name="TEST - Get Data Name from TD.vi" Type="VI" URL="../TEST - Get Data Name from TD.vi"/>
-	<Item Name="TEST - Get Data Name.vi" Type="VI" URL="../TEST - Get Data Name.vi"/>
-	<Item Name="TEST - Get Data TD from Datalog Ref.vi" Type="VI" URL="../TEST - Get Data TD from Datalog Ref.vi"/>
-	<Item Name="TEST - Get Default Data from TD.vi" Type="VI" URL="../TEST - Get Default Data from TD.vi"/>
-	<Item Name="TEST - Get Default Data from Variant.vi" Type="VI" URL="../TEST - Get Default Data from Variant.vi"/>
-	<Item Name="TEST - Get Element TD from Array TD.vi" Type="VI" URL="../TEST - Get Element TD from Array TD.vi"/>
-	<Item Name="TEST - Get GOOP Object Type.vi" Type="VI" URL="../TEST - Get GOOP Object Type.vi"/>
-	<Item Name="TEST - Get Header from TD.vi" Type="VI" URL="../TEST - Get Header from TD.vi"/>
-	<Item Name="TEST - Get Last PString.vi" Type="VI" URL="../TEST - Get Last PString.vi"/>
-	<Item Name="TEST - Get Physical Units from TD.vi" Type="VI" URL="../TEST - Get Physical Units from TD.vi"/>
-	<Item Name="TEST - Get Physical Units.vi" Type="VI" URL="../TEST - Get Physical Units.vi"/>
-	<Item Name="TEST - Get PString.vi" Type="VI" URL="../TEST - Get PString.vi"/>
-	<Item Name="TEST - Get Strings from Enum TD.vi" Type="VI" URL="../TEST - Get Strings from Enum TD.vi"/>
-	<Item Name="TEST - Get Strings from Enum.vi" Type="VI" URL="../TEST - Get Strings from Enum.vi"/>
-	<Item Name="TEST - Get TDEnum from Data.vi" Type="VI" URL="../TEST - Get TDEnum from Data.vi"/>
-	<Item Name="TEST - Get TDEnum from TD.vi" Type="VI" URL="../TEST - Get TDEnum from TD.vi"/>
-	<Item Name="TEST - Get Variant Attributes.vi" Type="VI" URL="../TEST - Get Variant Attributes.vi"/>
-	<Item Name="TEST - Index Array.vi" Type="VI" URL="../TEST - Index Array.vi"/>
-	<Item Name="TEST - LVOOP Get Default Object.vi" Type="VI" URL="../TEST - LVOOP Get Default Object.vi"/>
-	<Item Name="TEST - LVOOP Is Default Value.vi" Type="VI" URL="../TEST - LVOOP Is Default Value.vi"/>
-	<Item Name="TEST - LVOOP Is Same Or Descendant Class.vi" Type="VI" URL="../TEST - LVOOP Is Same Or Descendant Class.vi"/>
-	<Item Name="TEST - LVOOP Return Class Name.vi" Type="VI" URL="../TEST - LVOOP Return Class Name.vi"/>
-	<Item Name="TEST - No of Elements in Cluster.vi" Type="VI" URL="../TEST - No of Elements in Cluster.vi"/>
-	<Item Name="TEST - Parse String with TDs.vi" Type="VI" URL="../TEST - Parse String with TDs.vi"/>
-	<Item Name="TEST - Remove Typedefs from Variant.vi" Type="VI" URL="../TEST - Remove Typedefs from Variant.vi"/>
-	<Item Name="TEST - Replace Array Element.vi" Type="VI" URL="../TEST - Replace Array Element.vi"/>
-	<Item Name="TEST - Reshape 1D Array.vi" Type="VI" URL="../TEST - Reshape 1D Array.vi"/>
-	<Item Name="TEST - Reshape Array to 1D VArray.vi" Type="VI" URL="../TEST - Reshape Array to 1D VArray.vi"/>
-	<Item Name="TEST - Set Cluster Element by Name.vi" Type="VI" URL="../TEST - Set Cluster Element by Name.vi"/>
-	<Item Name="TEST - Set Data Name - Attributes.vi" Type="VI" URL="../TEST - Set Data Name - Attributes.vi"/>
-	<Item Name="TEST - Set Data Name.vi" Type="VI" URL="../TEST - Set Data Name.vi"/>
-	<Item Name="TEST - Set Enum String Value.vi" Type="VI" URL="../TEST - Set Enum String Value.vi"/>
-	<Item Name="TEST - Size of Data from TD.vi" Type="VI" URL="../TEST - Size of Data from TD.vi"/>
-	<Item Name="TEST - Split Cluster TD.vi" Type="VI" URL="../TEST - Split Cluster TD.vi"/>
-	<Item Name="TEST - Strip Units.vi" Type="VI" URL="../TEST - Strip Units.vi"/>
-	<Item Name="TEST - Unwrap VVariant.vi" Type="VI" URL="../TEST - Unwrap VVariant.vi"/>
-	<Item Name="TEST - Variant Constant.vi" Type="VI" URL="../TEST - Variant Constant.vi"/>
-	<Item Name="TEST - Variant to Header Info.vi" Type="VI" URL="../TEST - Variant to Header Info.vi"/>
 </Library>

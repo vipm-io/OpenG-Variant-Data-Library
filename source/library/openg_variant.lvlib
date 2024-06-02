@@ -8,6 +8,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="test_openg_array.lvlib" Type="Friended Library" URL="../../../tests/test_openg_array.lvlib"/>
+		<Item Name="test_openg_variant.lvlib" Type="Friended Library" URL="../../../tests/test_openg_variant.lvlib"/>
 	</Item>
 	<Item Name="Experimental" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
