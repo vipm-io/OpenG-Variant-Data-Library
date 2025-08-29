@@ -20,6 +20,7 @@
 		<Item Name="Test Map to VArray of Clusters.vi" Type="VI" URL="../Test Map to VArray of Clusters.vi"/>
 		<Item Name="Test Array of Clusters to VMap.vi" Type="VI" URL="../Test Array of Clusters to VMap.vi"/>
 		<Item Name="TEST - Array to Set - Set to Array.vi" Type="VI" URL="../TEST - Array to Set - Set to Array.vi"/>
+		<Item Name="TEST - Array to Map - Map to Array.vi" Type="VI" URL="../TEST - Array to Map - Map to Array.vi"/>
 	</Item>
 	<Item Name="TEST - Array Dim(s) from TD.vi" Type="VI" URL="../TEST - Array Dim(s) from TD.vi"/>
 	<Item Name="TEST - Array of VData to VArray.vi" Type="VI" URL="../TEST - Array of VData to VArray.vi"/>
