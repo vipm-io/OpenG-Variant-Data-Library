@@ -1,7 +1,7 @@
 <VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-04-05 17:27:12" Creator="Jonathon Green" Comments="" ID="f4660a5051f048f0311065b555417da7">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>6.0.0.46</Library_Version>
+    <Library_Version>6.0.1.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,20 +37,11 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_lvdata/</URL>
-      <Release_Notes>[6.0.0]
-- Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]
-- Basic Support for Maps and Sets (Get and Set Data Name) [Issue #20]
-- Move package VIs into an LVLIB [Issue # 15]
-- Change all VIs to source-only [Issue #9]
-- Support for FIXED-POINT datatype [Issue #6]
-- Internalized dependency on OpenG Error (no longer a dependency of built package)
-- EXPERIMENTAL: Added VIs for converting LabVIEW Objects to Variant Clusters and back.
-- EXPERIMENTAL: Added VI/VIM for adapting data types in a more flexible way.
-- EXPERIMENTAL: Added multi-dimentional VArray handling
-- EXPERIMENTAL: Added some variant constant types and common comparisons.
-- EXPERIMENTAL: Support for converting Map to Variant Array of Clusters and back.
+      <Release_Notes>[6.0.1]
+- Fixed: openg_variant.lvlib save version is now the default "Editor Version", which stops LabVIEW from repeatedly asking to resave the library [Issue #73]
+- Clarified the LabVIEW 2024 requirement for Sets: added a block diagram comment and extended the error message to explain NI bug 2058864 (incorrect Set type descriptor before LabVIEW 2024 Q1) [Issue #76]
 
-Important: Callers of this package will relink automatically to the new Library (openg_variant.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).
+Thanks to @DukeGriffin and @pranay001 for reporting, and to @Sdusing7 for the save version fix.
 </Release_Notes>
     </Description>
     <Destinations>
