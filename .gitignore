@@ -2,6 +2,7 @@
 # LabVIEW IDE Settings
 *.aliases
 *.lvlps
+.*.UserState
 
 # Python virtual environment
 venv/
