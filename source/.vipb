@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2024-04-05 17:27:12" Creator="Jonathon Green" Comments="" ID="f4660a5051f048f0311065b555417da7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-10 18:06:31" Modified_Date="2026-10-17 17:49:43" Creator="Jonathon Green" Comments="" ID="8afb3323bdd20b8254701354bdc73619">
   <Library_General_Settings>
     <Package_File_Name>oglib_lvdata</Package_File_Name>
-    <Library_Version>6.0.0.46</Library_Version>
+    <Library_Version>6.0.1.50</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -14,6 +14,8 @@
     <Product_Name>OpenG Variant Library</Product_Name>
     <Was_Built>true</Was_Built>
     <Target>LabVIEW</Target>
+    <Package_LabVIEW_Save_Version>false</Package_LabVIEW_Save_Version>
+    <LabVIEW_Save_Version/>
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
@@ -37,20 +39,11 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_lvdata/</URL>
-      <Release_Notes>[6.0.0]
-- Requires LV2020 or greater (sources upgraded to LV2020) [Issue #8]
-- Basic Support for Maps and Sets (Get and Set Data Name) [Issue #20]
-- Move package VIs into an LVLIB [Issue # 15]
-- Change all VIs to source-only [Issue #9]
-- Support for FIXED-POINT datatype [Issue #6]
-- Internalized dependency on OpenG Error (no longer a dependency of built package)
-- EXPERIMENTAL: Added VIs for converting LabVIEW Objects to Variant Clusters and back.
-- EXPERIMENTAL: Added VI/VIM for adapting data types in a more flexible way.
-- EXPERIMENTAL: Added multi-dimentional VArray handling
-- EXPERIMENTAL: Added some variant constant types and common comparisons.
-- EXPERIMENTAL: Support for converting Map to Variant Array of Clusters and back.
+      <Release_Notes>[6.0.1]
+- Fixed: openg_variant.lvlib save version is now the default "Editor Version", which stops LabVIEW from repeatedly asking to resave the library [Issue #73]
+- Clarified the LabVIEW 2024 requirement for Sets: added a block diagram comment and extended the error message to explain NI bug 2058864 (incorrect Set type descriptor before LabVIEW 2024 Q1) [Issue #76]
 
-Important: Callers of this package will relink automatically to the new Library (openg_variant.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).
+Thanks to @DukeGriffin and @pranay001 for reporting, and to @Sdusing7 for the save version fix.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -156,7 +149,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library/VI Tree - lvdata.vi</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>user docs\License Agreement.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -661,7 +654,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>Collections</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EB2470C337D6085DDCA3B585523F700</GUID>
+      <GUID>DCB3CE613FECCAF0AE0B35DFDA490913</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -710,7 +703,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Set Enum String Value.vi</Path>
         <VI_Title>Set Enum String Value.vi</VI_Title>
       </Items_Data>
-      <GUID>DAD9F09641E145446E2659E836F68485</GUID>
+      <GUID>93657964A9058B11B0EE052BB7EA456F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -927,7 +920,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Is Empty VCluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C09A97643BD0BBE06063321498E07359</GUID>
+      <GUID>A39D0AC7771F8478AEE251A898418DEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1172,7 +1165,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Is Empty VArray.vi</Path>
         <VI_Title>Is Empty VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>276BF5652D780C79F6BB34366495D240</GUID>
+      <GUID>E93D624F310FCB17A12D937715237736</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1221,7 +1214,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Get Physical Units.vi</Path>
         <VI_Title>Get Physical Units.vi</VI_Title>
       </Items_Data>
-      <GUID>40115CBC6C79AE364C7D183D98E7F593</GUID>
+      <GUID>ADFDCA462D55DBE24F307DDD810B68A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1284,7 +1277,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Null VVariant Constant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2095CB6EF3FAAF8277DDCE21C3589499</GUID>
+      <GUID>29535D4BCD54AA0DFF8FD7C8481F0903</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1529,7 +1522,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Get Refnum Type Enum from TD.vi</Path>
         <VI_Title>Get Refnum Type Enum from TD.vi</VI_Title>
       </Items_Data>
-      <GUID>9401FD24AF318E2386FFF3D437FA6C8A</GUID>
+      <GUID>70B56809CB9E3126FAA0D37ED4D35BBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1592,7 +1585,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\LabVIEW Object to VCluster.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CAA99CD73516FA4806A730E624E2628</GUID>
+      <GUID>11326069EC9345CD368AC04604A18C5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1669,7 +1662,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Set to VArray.vi</Path>
         <VI_Title>Set to VArray.vi</VI_Title>
       </Items_Data>
-      <GUID>4D3B353ECFA22600F37F0B280FB9D87A</GUID>
+      <GUID>41F431A943DDE7D60D7C7FC1F920697F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
