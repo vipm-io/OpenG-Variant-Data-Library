@@ -10,6 +10,10 @@ venv/
 
 # Built VIPM Package
 *.vip
+
+# VIPM's temp build dir
+.source/
+
+# Test reports and coverage files
 report.xml
-/.venv
 coverage.json
